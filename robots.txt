@@ -6,8 +6,6 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /private/
-Disallow: /*.js$
-Disallow: /*.css$
 
 # 百度爬虫 - 特别优化
 User-agent: Baiduspider
@@ -41,6 +39,5 @@ Allow: /
 # 网站地图位置
 Sitemap: https://gptchongzhi.net/sitemap.xml
 
-# 站点主页
+# 站点主域名（主要供百度参考）
 Host: gptchongzhi.net
-

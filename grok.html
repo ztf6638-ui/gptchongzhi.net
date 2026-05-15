@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grok 充值 - xAI 会员代充 | GPT Plus 充值服务</title>
+    <meta name="description" content="Grok 独立落地页，聚焦 Grok 充值、Grok 会员、xAI 订阅功能与适合场景，帮助网站覆盖更精准的 Grok 关键词。">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://gptchongzhi.net/grok.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Grok 充值 - xAI 会员代充">
+    <meta property="og:description" content="偏实时联网、热点讨论和开放网络语境的 Grok 单页。">
+    <meta property="og:url" content="https://gptchongzhi.net/grok.html">
+    <meta property="og:locale" content="zh_CN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Grok 充值 - xAI 会员代充">
+    <meta name="twitter:description" content="Grok 会员、实时信息和热点讨论能力独立承接页。">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="./index_files/css2.css" rel="stylesheet">
+    <script src="./index_files/saved_resource.js"></script>
+    <script>
+        tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'] } } } }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Grok 充值服务",
+      "description": "xAI Grok 会员代充服务",
+      "provider": {
+        "@type": "Organization",
+        "name": "GPT Plus充值服务",
+        "url": "https://gptchongzhi.net"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "180",
+        "priceCurrency": "CNY"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://gptchongzhi.net/" },
+        { "@type": "ListItem", "position": 2, "name": "Grok 充值", "item": "https://gptchongzhi.net/grok.html" }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Grok 适合什么人？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "更适合关注实时信息、开放讨论、热点和社媒语境的用户。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "为什么要把 Grok 独立做一页？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "因为 Grok 会员与其他 AI 的搜索意图差异更大，独立专题页更容易形成清晰的品牌关键词承接。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "充值失败联系？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "联系客服微信 aicz6638，24 小时在线响应。"
+          }
+        }
+      ]
+    }
+    </script>
+    <style>
+        :root {
+            --bg: #000;
+            --bg-card: #111114;
+            --text: #fafafa;
+            --muted: #a1a1aa;
+            --soft: #71717a;
+            --border: #27272a;
+            --signal: #ff3b30;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Inter, sans-serif; color: var(--text); background: var(--bg); line-height: 1.65; }
+        a { text-decoration: none; color: inherit; }
+        .nav { position: sticky; top: 0; z-index: 50; background: rgba(0,0,0,0.88); backdrop-filter: blur(18px); border-bottom: 1px solid var(--border); }
+        .nav-inner, .hero-inner, .section-inner, .footer-inner { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+        .nav-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 16px 0; }
+        .nav-logo { display: inline-flex; align-items: center; gap: 12px; font-weight: 700; }
+        .nav-logo img { width: 34px; height: 34px; border-radius: 10px; }
+        .nav-links { display: flex; gap: 20px; flex-wrap: wrap; color: var(--muted); }
+        .nav-links .active { color: var(--text); font-weight: 700; }
+        .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 12px 18px; border-radius: 999px; font-weight: 700; transition: 0.2s ease; }
+        .btn-primary { background: var(--text); color: var(--bg); }
+        .btn-secondary { border: 1px solid var(--border); color: var(--text); }
+        .hero { padding: 74px 0 56px; background: linear-gradient(180deg, #050505 0%, #000 100%); }
+        .eyebrow { display: inline-flex; align-items: center; gap: 10px; color: var(--muted); font-size: 0.82rem; letter-spacing: 0.12em; text-transform: uppercase; }
+        .blink { width: 8px; height: 8px; border-radius: 999px; background: var(--signal); box-shadow: 0 0 16px var(--signal); }
+        .hero-title { font-size: clamp(2.8rem, 6vw, 5rem); line-height: 0.95; margin: 18px 0; font-weight: 800; letter-spacing: -0.04em; }
+        .hero-title span { text-decoration: line-through; text-decoration-thickness: 4px; text-decoration-color: var(--signal); }
+        .hero-sub, .section-desc, .feature-desc, .faq-a, .cross-desc, .price-desc { color: var(--muted); }
+        .hero-sub { max-width: 780px; font-size: 1.04rem; }
+        .hero-cta { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 26px; }
+        .section { padding: 72px 0; }
+        .section-title { font-size: clamp(2rem, 4vw, 3.2rem); margin-top: 10px; line-height: 1.06; letter-spacing: -0.03em; }
+        .grid-2, .grid-3, .grid-4, .faq-list { display: grid; gap: 18px; }
+        .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+        .grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+        .feature-cell, .price-card, .cross-card, .faq-item { background: var(--bg-card); border: 1px solid var(--border); border-radius: 24px; padding: 24px; }
+        .feature-title, .cross-name, .faq-q { font-size: 1.08rem; font-weight: 700; margin-bottom: 10px; color: var(--text); }
+        .feature-num { font-size: 0.8rem; color: var(--signal); margin-bottom: 10px; font-weight: 700; }
+        .price-card { display: flex; flex-direction: column; gap: 14px; }
+        .price-card--feat { border-color: rgba(255,59,48,0.4); }
+        .price-tag { width: fit-content; font-size: 0.76rem; color: var(--signal); }
+        .price-badge { width: fit-content; padding: 6px 10px; border-radius: 999px; background: var(--signal); color: #fff; font-size: 0.74rem; font-weight: 700; }
+        .price-value { display: flex; align-items: baseline; gap: 4px; padding: 10px 0; border-top: 1px dashed var(--border); border-bottom: 1px dashed var(--border); }
+        .price-value strong { font-size: 2.4rem; line-height: 1; letter-spacing: -0.03em; }
+        .price-cta { margin-top: auto; display: inline-flex; justify-content: center; padding: 12px 16px; border-radius: 16px; background: var(--text); color: var(--bg); font-weight: 800; }
+        .faq-a code { background: rgba(255,255,255,0.06); padding: 2px 6px; border-radius: 6px; }
+        .cross-link { display: inline-flex; margin-top: 12px; color: #fff; font-weight: 600; }
+        .footer { border-top: 1px solid var(--border); background: #050505; padding: 30px 0 40px; }
+        .footer-inner { display: flex; justify-content: space-between; gap: 14px; flex-wrap: wrap; color: var(--soft); }
+        @media (max-width: 960px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } .nav-inner { flex-direction: column; align-items: flex-start; } }
+        @media (max-width: 640px) { .grid-4 { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <nav class="nav" aria-label="主导航">
+        <div class="nav-inner">
+            <a href="/index.html" class="nav-logo"><img src="/favicon-96x96.png" alt="AI充值服务"><span>AI充值服务</span></a>
+            <div class="nav-links">
+                <a href="/chatgpt-plus.html">ChatGPT</a>
+                <a href="/gemini-advanced.html">Gemini</a>
+                <a href="/claude-pro.html">Claude</a>
+                <a href="/grok.html" class="active">Grok</a>
+                <a href="/blog.html">攻略</a>
+                <a href="/faq.html">FAQ</a>
+            </div>
+            <a href="https://fe.dtyuedan.cn/shop/L8V0BD2G" target="_blank" rel="noopener" class="btn btn-primary">立即购买</a>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="eyebrow"><span class="blink"></span><span>xAI · Real-time · Live Network</span></div>
+            <h1 class="hero-title"><span>没有审查</span>的<br>AI 助手。</h1>
+            <p class="hero-sub">聚焦 Grok 会员、Grok 充值、xAI 订阅等独立搜索需求，强调它和其他 AI 的差异：更偏实时信息、热点讨论、开放网络语境和社媒内容理解。</p>
+            <div class="hero-cta">
+                <a href="https://fe.dtyuedan.cn/shop/L8V0BD2G" target="_blank" rel="noopener" class="btn btn-primary">Get Grok</a>
+                <a href="#pricing" class="btn btn-secondary">View Pricing</a>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section-inner">
+            <div class="eyebrow">Features</div>
+            <h2 class="section-title">Grok 与众不同。</h2>
+            <p class="section-desc">不是又一个泛用聊天页，而是专门承接 Grok 会员、Grok 充值、Grok 开通这类更偏品牌型的搜索需求。</p>
+            <div class="grid-3" style="margin-top: 26px;">
+                <article class="feature-cell"><div class="feature-num">/01</div><h3 class="feature-title">Voice Agent</h3><p class="feature-desc">更适合实时语音交互、快速对话和更有现场感的使用体验。</p></article>
+                <article class="feature-cell"><div class="feature-num">/02</div><h3 class="feature-title">DeepSearch</h3><p class="feature-desc">更适合关注热点、新闻、舆情和快速变化的网络信息。</p></article>
+                <article class="feature-cell"><div class="feature-num">/03</div><h3 class="feature-title">Grok Imagine</h3><p class="feature-desc">适合把文本创意延伸到图像或短视频生成场景。</p></article>
+                <article class="feature-cell"><div class="feature-num">/04</div><h3 class="feature-title">开放网络语境</h3><p class="feature-desc">在社媒风格、话题讨论和网络语境理解上更有辨识度。</p></article>
+                <article class="feature-cell"><div class="feature-num">/05</div><h3 class="feature-title">X 平台协同</h3><p class="feature-desc">更适合需要理解推文、回复链和实时趋势变化的用户。</p></article>
+                <article class="feature-cell"><div class="feature-num">/06</div><h3 class="feature-title">差异化补充</h3><p class="feature-desc">如果你已经在用 ChatGPT 或 Claude，Grok 更像一个互补型选项。</p></article>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="pricing">
+        <div class="section-inner">
+            <div class="eyebrow">Pricing</div>
+            <h2 class="section-title">¥180 起。月度 / 年度可选。</h2>
+            <div class="grid-2" style="margin-top: 26px;">
+                <article class="price-card">
+                    <span class="price-tag">// monthly</span>
+                    <h3 class="feature-title">月度</h3>
+                    <div class="price-value"><span>¥</span><strong>180</strong><span>/月</span></div>
+                    <p class="price-desc">适合先体验 Grok 风格，灵活停用。</p>
+                    <a href="https://fe.dtyuedan.cn/shop/L8V0BD2G" target="_blank" rel="noopener" class="price-cta">立即购买</a>
+                </article>
+                <article class="price-card price-card--feat">
+                    <span class="price-badge">// best value</span>
+                    <span class="price-tag">// annual</span>
+                    <h3 class="feature-title">年度</h3>
+                    <div class="price-value"><span>¥</span><strong>1800</strong><span>/年</span></div>
+                    <p class="price-desc">适合长期使用或希望降低月均成本的用户。</p>
+                    <a href="https://fe.dtyuedan.cn/shop/L8V0BD2G" target="_blank" rel="noopener" class="price-cta">立即购买</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section-inner">
+            <div class="eyebrow">FAQ</div>
+            <h2 class="section-title">常见问题。</h2>
+            <div class="faq-list" style="margin-top: 26px;">
+                <div class="faq-item"><h3 class="faq-q">Grok 适合什么人？</h3><p class="faq-a">更适合关注实时信息、开放讨论、热点和社媒语境的用户。</p></div>
+                <div class="faq-item"><h3 class="faq-q">为什么要把 Grok 独立做一页？</h3><p class="faq-a">因为 Grok 会员和其他 AI 的搜索意图差异更大，单页更容易形成明确专题信号。</p></div>
+                <div class="faq-item"><h3 class="faq-q">充值失败联系？</h3><p class="faq-a">微信 <code>aicz6638</code>，24 小时在线。</p></div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section-inner">
+            <div class="eyebrow">Continue</div>
+            <h2 class="section-title">还有这些 AI。</h2>
+            <div class="grid-4" style="margin-top: 26px;">
+                <a href="/chatgpt-plus.html" class="cross-card"><h3 class="cross-name">ChatGPT Plus</h3><p class="cross-desc">通用型主力 AI 助手。</p><span class="cross-link">了解 →</span></a>
+                <a href="/gemini-advanced.html" class="cross-card"><h3 class="cross-name">Gemini</h3><p class="cross-desc">更偏研究和长资料处理。</p><span class="cross-link">了解 →</span></a>
+                <a href="/claude-pro.html" class="cross-card"><h3 class="cross-name">Claude</h3><p class="cross-desc">更适合代码和长文本理解。</p><span class="cross-link">了解 →</span></a>
+                <a href="/blog.html" class="cross-card"><h3 class="cross-name">攻略</h3><p class="cross-desc">继续阅读 AI 使用与对比内容。</p><span class="cross-link">阅读 →</span></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer"><div class="footer-inner"><span>客服微信：aicz6638</span><span>AI 会员充值服务</span></div></footer>
+</body>
+</html>

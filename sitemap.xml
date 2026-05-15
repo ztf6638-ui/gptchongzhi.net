@@ -7,58 +7,185 @@
   <!-- 首页 - 最高优先级 -->
   <url>
     <loc>https://gptchongzhi.net/</loc>
-    <lastmod>2024-12-27</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- 主要产品页面 -->
+  <!-- 博客页 -->
   <url>
-    <loc>https://gptchongzhi.net/#pricing</loc>
-    <lastmod>2024-12-27</lastmod>
+    <loc>https://gptchongzhi.net/blog.html</loc>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- 客户评价页面 -->
+  <!-- 常见问题页 -->
   <url>
-    <loc>https://gptchongzhi.net/#reviews</loc>
-    <lastmod>2024-12-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- 使用说明页面 -->
-  <url>
-    <loc>https://gptchongzhi.net/#usage</loc>
-    <lastmod>2024-12-27</lastmod>
+    <loc>https://gptchongzhi.net/faq.html</loc>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- 购买流程页面 -->
+  <!-- 使用指南页 -->
   <url>
-    <loc>https://gptchongzhi.net/#steps</loc>
-    <lastmod>2024-12-27</lastmod>
+    <loc>https://gptchongzhi.net/guide.html</loc>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- 特性介绍页面 -->
+  <!-- 对比分析页 -->
   <url>
-    <loc>https://gptchongzhi.net/#features</loc>
-    <lastmod>2024-12-27</lastmod>
+    <loc>https://gptchongzhi.net/comparison.html</loc>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
-  <!-- 信任保障页面 -->
+  <!-- ChatGPT Plus 专题页 -->
   <url>
-    <loc>https://gptchongzhi.net/#trust</loc>
-    <lastmod>2024-12-27</lastmod>
+    <loc>https://gptchongzhi.net/chatgpt-plus.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ChatGPT 国内充值文章页 -->
+  <url>
+    <loc>https://gptchongzhi.net/chatgpt-plus-cn-recharge.html</loc>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ChatGPT 值不值得买文章页 -->
+  <url>
+    <loc>https://gptchongzhi.net/chatgpt-plus-worth-it.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gemini Advanced 专题页 -->
+  <url>
+    <loc>https://gptchongzhi.net/gemini-advanced.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Claude Pro 专题页 -->
+  <url>
+    <loc>https://gptchongzhi.net/claude-pro.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Claude 国内开通文章页 -->
+  <url>
+    <loc>https://gptchongzhi.net/claude-pro-cn-setup.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Claude 程序员适配文章页 -->
+  <url>
+    <loc>https://gptchongzhi.net/claude-pro-for-programmers.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Grok 专题页 -->
+  <url>
+    <loc>https://gptchongzhi.net/grok.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Gemini 国内充值文章页 -->
+  <url>
+    <loc>https://gptchongzhi.net/gemini-advanced-cn-recharge.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gemini 值不值得买文章页 -->
+  <url>
+    <loc>https://gptchongzhi.net/gemini-advanced-worth-it.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Grok 开通文章页 -->
+  <url>
+    <loc>https://gptchongzhi.net/grok-membership-setup.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Grok 适合人群文章页 -->
+  <url>
+    <loc>https://gptchongzhi.net/grok-who-should-use.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gemini 进阶指南页 -->
+  <url>
+    <loc>https://gptchongzhi.net/gemini-advanced-guide.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Claude 编程实战页 -->
+  <url>
+    <loc>https://gptchongzhi.net/claude-pro-coding.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ChatGPT 和 Claude 对比页 -->
+  <url>
+    <loc>https://gptchongzhi.net/chatgpt-vs-claude.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Claude 和 Gemini 对比页 -->
+  <url>
+    <loc>https://gptchongzhi.net/claude-vs-gemini.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ChatGPT 和 Gemini 对比页 -->
+  <url>
+    <loc>https://gptchongzhi.net/chatgpt-vs-gemini.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 四大 AI 会员总决策页 -->
+  <url>
+    <loc>https://gptchongzhi.net/four-ai-membership-guide.html</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
-

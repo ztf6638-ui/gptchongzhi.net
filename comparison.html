@@ -1,629 +1,124 @@
 <!DOCTYPE html>
-<html lang="zh-CN" class="scroll-smooth">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plus与Pro对比分析 - AI会员充值服务</title>
-    <meta name="description" content="ChatGPT Plus、Claude Pro、Gemini Advanced、Grok全方位对比分析">
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <link href="./index_files/css2.css" rel="stylesheet">
-    <script src="./index_files/saved_resource.js"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif']
-                    }
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatGPT、Claude、Gemini、Grok 怎么选？4 大 AI 会员总决策页</title>
+    <meta
+      name="description"
+      content="按内容写作、代码开发、研究分析、实时信息四类需求，系统对比 ChatGPT、Claude、Gemini、Grok，帮你更快选出最适合自己的 AI 会员。"
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="https://gptchongzhi.net/comparison.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="gptchongzhi.net" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:url" content="https://gptchongzhi.net/comparison.html" />
+    <meta property="og:title" content="ChatGPT、Claude、Gemini、Grok 怎么选？4 大 AI 会员总决策页" />
+    <meta property="og:description" content="把 4 大 AI 会员放进同一张决策地图里，按任务类型、预算和使用场景做选择。" />
+    <meta property="og:image" content="https://gptchongzhi.net/images/20251122.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="4 大 AI 会员总决策页" />
+    <meta name="twitter:description" content="按任务类型、预算和使用场景选择 ChatGPT、Claude、Gemini、Grok。" />
+    <meta name="twitter:image" content="https://gptchongzhi.net/images/20251122.jpg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Geist+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles/site.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "headline": "ChatGPT、Claude、Gemini、Grok 怎么选？4 大 AI 会员总决策页",
+            "description": "按内容写作、代码开发、研究分析、实时信息四类需求，对比 ChatGPT、Claude、Gemini、Grok 的选购差异",
+            "dateModified": "2026-05-15",
+            "author": { "@type": "Organization", "name": "AI充值服务" },
+            "publisher": {
+              "@type": "Organization",
+              "name": "AI充值服务",
+              "logo": { "@type": "ImageObject", "url": "https://gptchongzhi.net/favicon-96x96.png" }
+            },
+            "image": "https://gptchongzhi.net/images/20251122.jpg",
+            "mainEntityOfPage": "https://gptchongzhi.net/comparison.html"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://gptchongzhi.net/" },
+              { "@type": "ListItem", "position": 2, "name": "攻略合集", "item": "https://gptchongzhi.net/blog.html" },
+              { "@type": "ListItem", "position": 3, "name": "4 大 AI 会员总决策页", "item": "https://gptchongzhi.net/comparison.html" }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "如果只能先买一个 AI，优先买谁？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "如果你还没有任何主力 AI，大多数用户先从 ChatGPT 开始最稳。"
                 }
-            }
-        }
+              },
+              {
+                "@type": "Question",
+                "name": "想做代码和长文档处理，优先选谁？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "如果你更重视代码协作、重构、长上下文理解和结构化表达，优先看 Claude。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "想做研究和资料整理，优先选谁？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "如果你更重视长资料、研究流程和 Google 生态协同，优先看 Gemini。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "想追实时信息和热点讨论，优先选谁？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "如果你更重视实时信息、热点、社媒语境和开放网络，优先看 Grok。"
+                }
+              }
+            ]
+          }
+        ]
+      }
     </script>
-    <style>
-        ::-webkit-scrollbar { width: 0px; background: transparent; }
-        .gradient-bg { background: linear-gradient(135deg, #14B8A6 0%, #6366F1 100%); }
-        .fade-in { animation: fadeInUp 0.8s ease-out forwards; }
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        .hamburger {
-            width: 24px;
-            height: 18px;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        
-        .hamburger span {
-            display: block;
-            height: 3px;
-            width: 100%;
-            background: linear-gradient(135deg, #14B8A6 0%, #6366F1 100%);
-            border-radius: 2px;
-            transition: all 0.3s ease;
-        }
-        
-        .hamburger.active span:nth-child(1) {
-            transform: translateY(7.5px) rotate(45deg);
-        }
-        
-        .hamburger.active span:nth-child(2) {
-            opacity: 0;
-        }
-        
-        .hamburger.active span:nth-child(3) {
-            transform: translateY(-7.5px) rotate(-45deg);
-        }
-        
-        .nav-item {
-            transform: translateX(0);
-            transition: all 0.2s ease;
-        }
-        
-        .nav-item:hover {
-            transform: translateX(5px);
-        }
-        
-        .comparison-card {
-            transition: all 0.3s ease;
-        }
-        
-        .comparison-card:hover {
-            transform: translateY(-5px);
-        }
-        
-        /* 菜单按钮脉冲效果 */
-        @keyframes pulse-slow {
-            0%, 100% {
-                transform: scale(1);
-                box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.7);
-            }
-            50% {
-                transform: scale(1.05);
-                box-shadow: 0 0 0 10px rgba(99, 102, 241, 0);
-            }
-        }
-        .animate-pulse-slow {
-            animation: pulse-slow 2s ease-in-out infinite;
-        }
-    </style>
-    
-    <!-- 百度统计代码 -->
-    <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?f24ab90c10aeed6e8da3e2eec71285e4";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-    </script>
-</head>
-<body class="font-sans bg-gray-50 text-gray-900">
-    
-    <!-- 菜单按钮 - 更明显的设计 -->
-    <button id="menuButton" class="fixed top-6 left-6 z-50 flex items-center gap-2 px-4 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 animate-pulse-slow">
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <span class="text-sm hidden sm:inline">菜单</span>
-    </button>
-
-    <!-- 侧边栏导航 -->
-    <div id="sidebar" class="fixed inset-y-0 left-0 w-72 bg-white shadow-2xl transform -translate-x-full transition-transform duration-300 ease-in-out z-40">
-        <div class="flex flex-col h-full">
-            <div class="p-6 border-b border-gray-200">
-                <h2 class="text-2xl font-bold text-gray-900">AI充值服务</h2>
-                <p class="text-sm text-gray-500 mt-1">导航菜单</p>
-            </div>
-            
-            <nav class="flex-1 overflow-y-auto p-4">
-                <a href="index.html" class="nav-item flex items-center px-4 py-3 mb-2 text-gray-700 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 rounded-lg transition-all duration-200 group">
-                    <span class="text-xl mr-3">🏠</span>
-                    <span class="font-medium group-hover:text-indigo-600">主页</span>
-                </a>
-                <a href="blog.html" class="nav-item flex items-center px-4 py-3 mb-2 text-gray-700 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 rounded-lg transition-all duration-200 group">
-                    <span class="text-xl mr-3">📚</span>
-                    <span class="font-medium group-hover:text-indigo-600">博客</span>
-                </a>
-                <a href="faq.html" class="nav-item flex items-center px-4 py-3 mb-2 text-gray-700 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 rounded-lg transition-all duration-200 group">
-                    <span class="text-xl mr-3">❓</span>
-                    <span class="font-medium group-hover:text-indigo-600">常见问题</span>
-                </a>
-                <a href="guide.html" class="nav-item flex items-center px-4 py-3 mb-2 text-gray-700 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 rounded-lg transition-all duration-200 group">
-                    <span class="text-xl mr-3">📖</span>
-                    <span class="font-medium group-hover:text-indigo-600">ChatGPT Plus使用指南</span>
-                </a>
-                <a href="comparison.html" class="nav-item flex items-center px-4 py-3 mb-2 text-gray-700 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg transition-all duration-200 group">
-                    <span class="text-xl mr-3">🆚</span>
-                    <span class="font-medium text-indigo-600">Plus与Pro对比分析</span>
-                </a>
-            </nav>
-            
-            <div class="p-4 border-t border-gray-200">
-                <div class="text-center text-sm text-gray-500">
-                    <p>客服微信：aicz6638</p>
-                </div>
-            </div>
-        </div>
+    <script defer src="/scripts/site.js"></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header"><div class="container site-header__inner"><a class="brand" href="/index.html"><img src="/favicon-96x96.png" alt="AI充值服务 标志" /><span>AI充值服务</span></a><nav class="nav" aria-label="主导航"><a href="/chatgpt-plus.html">ChatGPT</a><a href="/gemini-advanced.html">Gemini</a><a href="/claude-pro.html">Claude</a><a href="/grok.html">Grok</a><a href="/blog.html">攻略</a><a class="is-active" href="/comparison.html">对比</a></nav></div></header>
+      <main>
+        <section class="page-hero"><div class="container"><p class="section__kicker">总决策页</p><h1>ChatGPT、Claude、Gemini、Grok 怎么选</h1><p>这页不再只是一个“简单对比页”，而是你整站的总决策枢纽。最实用的判断方法不是背参数，而是按你真实的任务类型、预算和工作流来选。</p></div></section>
+        <section class="section"><div class="container prose">
+          <div class="content-card"><div class="content-card__body prose"><h2>先看结论：4 类需求对应 4 种选择</h2><div class="split-list"><div class="note"><strong>想要最均衡的主力 AI</strong><p>优先看 <a href="/chatgpt-plus.html">ChatGPT</a>。它更适合内容、运营、办公、产品和轻量开发的混合型工作流。</p></div><div class="note"><strong>想做代码和长文档处理</strong><p>优先看 <a href="/claude-pro.html">Claude</a>。它更适合复杂上下文、重构、代码审查和结构化表达。</p></div><div class="note"><strong>想做研究和资料整理</strong><p>优先看 <a href="/gemini-advanced.html">Gemini</a>。它更适合长资料、多模态输入、Deep Research 和 Google 生态协同。</p></div><div class="note"><strong>想追实时信息和热点讨论</strong><p>优先看 <a href="/grok.html">Grok</a>。它更适合实时信息、社媒语境、DeepSearch 和开放网络。</p></div></div></div></div>
+        </div></section>
+        <section class="section section--soft"><div class="container card-grid card-grid--3">
+          <article class="content-card"><div class="content-card__body prose"><h2>ChatGPT</h2><p>最适合作为“第一张 AI 会员”。如果你要的是均衡、稳定、覆盖面广，ChatGPT 通常更容易成为长期主力。</p><ul><li>适合内容、运营、办公、产品</li><li>适合通用写作、整理、图像辅助</li><li>适合作为大多数人的起点</li></ul></div></article>
+          <article class="content-card"><div class="content-card__body prose"><h2>Claude</h2><p>最适合重视代码协作、长文档理解和结构化表达的人。你越依赖复杂上下文和工程协作，它越容易长期留下来。</p><ul><li>适合代码审查与重构</li><li>适合长上下文和严肃表达</li><li>适合开发者与高密度文本工作者</li></ul></div></article>
+          <article class="content-card"><div class="content-card__body prose"><h2>Gemini</h2><p>最适合研究、资料整合和 Google 生态用户。你越依赖长资料、多文档和研究流程，越容易觉得 Gemini 对口。</p><ul><li>适合 Deep Research 和 NotebookLM Plus</li><li>适合长资料和多模态理解</li><li>适合研究与分析型工作流</li></ul></div></article>
+          <article class="content-card"><div class="content-card__body prose"><h2>Grok</h2><p>最适合关注实时信息、热点话题和社媒语境的用户。它更像是一个实时信息补充工具，而不是最稳的通用主力。</p><ul><li>适合实时话题和开放网络</li><li>适合 Voice Agent 和 DeepSearch 场景</li><li>适合舆情、趋势和社媒内容从业者</li></ul></div></article>
+          <article class="content-card"><div class="content-card__body prose"><h2>按预算怎么选</h2><ul><li>第一次买 AI：大多数人先从 ChatGPT 开始最稳。</li><li>已经有主力，想加强代码：补 Claude。</li><li>已经有主力，想加强研究：补 Gemini。</li><li>已经有主力，想加强实时信息：补 Grok。</li></ul></div></article>
+          <article class="content-card"><div class="content-card__body prose"><h2>按职业怎么选</h2><ul><li>内容和运营：ChatGPT / Gemini</li><li>开发与技术：Claude / ChatGPT</li><li>研究与分析：Gemini / Claude</li><li>热点与舆情：Grok</li></ul></div></article>
+        </div></section>
+        <section class="section"><div class="container prose">
+          <div class="content-card"><div class="content-card__body prose"><h2>如果你还在犹豫，按这条路径走</h2><ol><li>先确认自己最常做的是哪类任务：写作、代码、研究还是实时信息。</li><li>再看对应的单品专题页，理解它的核心价值而不是只看价格。</li><li>最后再看“开通指南”和“值不值得买”文章，补全购买前问题。</li></ol><ul><li><a href="/chatgpt-plus-cn-recharge.html">ChatGPT Plus 国内怎么充值</a></li><li><a href="/claude-pro-cn-setup.html">Claude Pro 国内怎么开通</a></li><li><a href="/gemini-advanced-cn-recharge.html">Gemini Advanced 国内怎么充值</a></li><li><a href="/grok-membership-setup.html">Grok 会员怎么开通</a></li></ul></div></div>
+          <div class="content-card"><div class="content-card__body prose"><h2>继续深挖这些关键对比</h2><div class="split-list"><div class="note"><strong>ChatGPT vs Claude</strong><p><a href="/chatgpt-vs-claude.html">通用主力和代码长文本场景怎么选</a></p></div><div class="note"><strong>Claude vs Gemini</strong><p><a href="/claude-vs-gemini.html">工程协作和研究资料处理怎么选</a></p></div><div class="note"><strong>ChatGPT vs Gemini</strong><p><a href="/chatgpt-vs-gemini.html">均衡生产力和研究流程怎么选</a></p></div><div class="note"><strong>总选购清单</strong><p><a href="/four-ai-membership-guide.html">4 大 AI 会员选购指南</a></p></div></div></div></div>
+          <div class="content-card"><div class="content-card__body prose"><h2>一句话建议</h2><blockquote>想要一个通用主力，选 ChatGPT；想要更强的代码与长上下文，选 Claude；想做研究和长资料处理，选 Gemini；想追实时信息和网络语境，选 Grok。</blockquote><div class="button-row"><a class="btn btn--primary" href="https://fe.dtyuedan.cn/shop/L8V0BD2G" target="_blank" rel="noopener">立即购买</a><button class="btn btn--secondary" type="button" onclick="copyWechat()">复制客服微信</button></div></div></div>
+        </div></section>
+      </main>
+      <footer class="site-footer"><div class="container site-footer__grid"><div><h4>AI充值服务</h4><p>把 4 个专题页、开通指南、值不值得买和双对比文章，全部汇总到一个总决策入口里。</p></div><div><h4>相关文章</h4><ul><li><a href="/chatgpt-vs-claude.html">ChatGPT 和 Claude 怎么选</a></li><li><a href="/claude-vs-gemini.html">Claude 和 Gemini 怎么选</a></li><li><a href="/chatgpt-vs-gemini.html">ChatGPT 和 Gemini 怎么选</a></li><li><a href="/four-ai-membership-guide.html">4 大 AI 会员选购指南</a></li></ul></div><div><h4>服务</h4><ul><li><a href="/chatgpt-plus.html">查看专题页</a></li><li><a href="https://fe.dtyuedan.cn/shop/L8V0BD2G" target="_blank" rel="noopener">立即购买</a></li></ul></div><div><h4>联系</h4><ul><li>客服微信 aicz6638</li><li><button class="btn btn--secondary" type="button" onclick="copyWechat()">复制微信号</button></li></ul></div></div></footer>
     </div>
-
-    <!-- 遮罩层 -->
-    <div id="overlay" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-30 opacity-0 pointer-events-none transition-opacity duration-300"></div>
-    
-    <!-- 页面头部 -->
-    <section class="gradient-bg py-20 px-4 relative overflow-hidden">
-        <div class="absolute inset-0 bg-black/10"></div>
-        <div class="container mx-auto text-center relative z-10 opacity-0 fade-in" id="header" style="opacity: 1;">
-            <h1 class="text-5xl font-bold text-white mb-4">🆚 Plus与Pro对比分析</h1>
-            <p class="text-xl text-white/90">深入对比各大AI平台的高级会员服务</p>
-        </div>
-    </section>
-
-    <!-- 文章内容 -->
-    <article class="py-16 px-4">
-        <div class="container mx-auto max-w-6xl">
-            
-            <!-- 简介 -->
-            <div class="bg-white rounded-2xl shadow-lg p-8 mb-8 opacity-0 fade-in text-center" style="opacity: 1;">
-                <p class="text-lg text-gray-700 leading-relaxed">
-                    ChatGPT Plus、Claude Pro、Gemini Advanced、Grok如何选择？<br>
-                    本文将从功能、价格、使用场景等多个维度进行详细对比，帮助您做出最适合的选择。
-                </p>
-            </div>
-
-            <!-- 产品卡片对比 -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-                
-                <!-- ChatGPT Plus -->
-                <div class="comparison-card bg-white rounded-2xl shadow-lg overflow-hidden opacity-0 fade-in" style="opacity: 1;">
-                    <div class="bg-gradient-to-r from-green-400 to-blue-500 p-6 text-white text-center">
-                        <div class="text-5xl mb-3">🤖</div>
-                        <h3 class="text-2xl font-bold">ChatGPT Plus</h3>
-                        <p class="text-white/90 text-sm mt-2">OpenAI 出品</p>
-                    </div>
-                    <div class="p-6">
-                        <div class="text-center mb-4">
-                            <p class="text-3xl font-bold text-blue-600">¥168</p>
-                            <p class="text-sm text-gray-500">每月</p>
-                        </div>
-                        <div class="space-y-3 text-sm">
-                            <div class="flex items-start">
-                                <span class="text-green-500 mr-2">✓</span>
-                                <span class="text-gray-700">GPT-5.2 模型访问</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-green-500 mr-2">✓</span>
-                                <span class="text-gray-700">DALL·E 3 图像生成</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-green-500 mr-2">✓</span>
-                                <span class="text-gray-700">高级数据分析</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-green-500 mr-2">✓</span>
-                                <span class="text-gray-700">网页浏览功能</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-green-500 mr-2">✓</span>
-                                <span class="text-gray-700">优先访问新功能</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Claude Pro -->
-                <div class="comparison-card bg-white rounded-2xl shadow-lg overflow-hidden opacity-0 fade-in" style="opacity: 1; animation-delay: 0.1s;">
-                    <div class="bg-gradient-to-r from-purple-400 to-pink-500 p-6 text-white text-center">
-                        <div class="text-5xl mb-3">🧠</div>
-                        <h3 class="text-2xl font-bold">Claude Pro</h3>
-                        <p class="text-white/90 text-sm mt-2">Anthropic 出品</p>
-                    </div>
-                    <div class="p-6">
-                        <div class="text-center mb-4">
-                            <p class="text-3xl font-bold text-purple-600">¥180</p>
-                            <p class="text-sm text-gray-500">每月</p>
-                        </div>
-                        <div class="space-y-3 text-sm">
-                            <div class="flex items-start">
-                                <span class="text-purple-500 mr-2">✓</span>
-                                <span class="text-gray-700">Claude 3.5 Sonnet</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-purple-500 mr-2">✓</span>
-                                <span class="text-gray-700">200K 上下文窗口</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-purple-500 mr-2">✓</span>
-                                <span class="text-gray-700">代码能力超强</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-purple-500 mr-2">✓</span>
-                                <span class="text-gray-700">5倍消息量限制</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-purple-500 mr-2">✓</span>
-                                <span class="text-gray-700">优先访问权限</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gemini Advanced -->
-                <div class="comparison-card bg-white rounded-2xl shadow-lg overflow-hidden opacity-0 fade-in" style="opacity: 1; animation-delay: 0.2s;">
-                    <div class="bg-gradient-to-r from-orange-400 to-red-500 p-6 text-white text-center">
-                        <div class="text-5xl mb-3">⭐</div>
-                        <h3 class="text-2xl font-bold">Gemini Advanced</h3>
-                        <p class="text-white/90 text-sm mt-2">Google 出品</p>
-                    </div>
-                    <div class="p-6">
-                        <div class="text-center mb-4">
-                            <p class="text-3xl font-bold text-orange-600">¥158</p>
-                            <p class="text-sm text-gray-500">每月</p>
-                        </div>
-                        <div class="space-y-3 text-sm">
-                            <div class="flex items-start">
-                                <span class="text-orange-500 mr-2">✓</span>
-                                <span class="text-gray-700">Ultra 1.0 模型</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-orange-500 mr-2">✓</span>
-                                <span class="text-gray-700">100万 token 上下文</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-orange-500 mr-2">✓</span>
-                                <span class="text-gray-700">Deep Research 功能</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-orange-500 mr-2">✓</span>
-                                <span class="text-gray-700">多模态理解能力</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-orange-500 mr-2">✓</span>
-                                <span class="text-gray-700">Google生态集成</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Grok -->
-                <div class="comparison-card bg-white rounded-2xl shadow-lg overflow-hidden opacity-0 fade-in" style="opacity: 1; animation-delay: 0.3s;">
-                    <div class="bg-gradient-to-r from-blue-400 to-indigo-500 p-6 text-white text-center">
-                        <div class="text-5xl mb-3">🚀</div>
-                        <h3 class="text-2xl font-bold">Grok</h3>
-                        <p class="text-white/90 text-sm mt-2">xAI 出品</p>
-                    </div>
-                    <div class="p-6">
-                        <div class="text-center mb-4">
-                            <p class="text-3xl font-bold text-blue-600">¥180</p>
-                            <p class="text-sm text-gray-500">每月</p>
-                        </div>
-                        <div class="space-y-3 text-sm">
-                            <div class="flex items-start">
-                                <span class="text-blue-500 mr-2">✓</span>
-                                <span class="text-gray-700">实时联网访问</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-blue-500 mr-2">✓</span>
-                                <span class="text-gray-700">X平台数据访问</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-blue-500 mr-2">✓</span>
-                                <span class="text-gray-700">幽默风趣的风格</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-blue-500 mr-2">✓</span>
-                                <span class="text-gray-700">马斯克团队开发</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-blue-500 mr-2">✓</span>
-                                <span class="text-gray-700">最新资讯获取</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- 详细对比表格 -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-12 opacity-0 fade-in" style="opacity: 1; animation-delay: 0.4s;">
-                <div class="p-6 bg-gradient-to-r from-indigo-600 to-purple-600">
-                    <h2 class="text-3xl font-bold text-white text-center">详细功能对比</h2>
-                </div>
-                <div class="overflow-x-auto">
-                    <table class="w-full">
-                        <thead class="bg-gray-50">
-                            <tr>
-                                <th class="px-6 py-4 text-left text-sm font-bold text-gray-900">对比维度</th>
-                                <th class="px-6 py-4 text-center text-sm font-bold text-blue-600">ChatGPT Plus</th>
-                                <th class="px-6 py-4 text-center text-sm font-bold text-purple-600">Claude Pro</th>
-                                <th class="px-6 py-4 text-center text-sm font-bold text-orange-600">Gemini Advanced</th>
-                                <th class="px-6 py-4 text-center text-sm font-bold text-indigo-600">Grok</th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-gray-200">
-                            <tr class="hover:bg-gray-50">
-                                <td class="px-6 py-4 font-semibold text-gray-900">月费价格</td>
-                                <td class="px-6 py-4 text-center text-blue-600">¥168</td>
-                                <td class="px-6 py-4 text-center text-purple-600">¥180</td>
-                                <td class="px-6 py-4 text-center text-orange-600">¥158</td>
-                                <td class="px-6 py-4 text-center text-indigo-600">¥180</td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="px-6 py-4 font-semibold text-gray-900">上下文长度</td>
-                                <td class="px-6 py-4 text-center">128K tokens</td>
-                                <td class="px-6 py-4 text-center">200K tokens</td>
-                                <td class="px-6 py-4 text-center">1M tokens</td>
-                                <td class="px-6 py-4 text-center">未公开</td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="px-6 py-4 font-semibold text-gray-900">核心优势</td>
-                                <td class="px-6 py-4 text-center text-sm">通用场景全面</td>
-                                <td class="px-6 py-4 text-center text-sm">代码能力强</td>
-                                <td class="px-6 py-4 text-center text-sm">长文档处理</td>
-                                <td class="px-6 py-4 text-center text-sm">实时信息</td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="px-6 py-4 font-semibold text-gray-900">图像生成</td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-green-500">✓</span>
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-red-500">✗</span>
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-green-500">✓</span>
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-green-500">✓</span>
-                                </td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="px-6 py-4 font-semibold text-gray-900">联网能力</td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-green-500">✓</span>
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-red-500">✗</span>
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-green-500">✓</span>
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-green-500 font-bold">✓✓</span>
-                                </td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="px-6 py-4 font-semibold text-gray-900">数据分析</td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-green-500 font-bold">✓✓</span>
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-green-500">✓</span>
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-green-500">✓</span>
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-green-500">✓</span>
-                                </td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="px-6 py-4 font-semibold text-gray-900">编程能力</td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-green-500 font-bold">✓✓</span>
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-green-500 font-bold">✓✓✓</span>
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-green-500">✓</span>
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <span class="text-green-500">✓</span>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <!-- 使用场景推荐 -->
-            <div class="mb-12 opacity-0 fade-in" style="opacity: 1; animation-delay: 0.5s;">
-                <h2 class="text-3xl font-bold text-gray-900 text-center mb-8">使用场景推荐</h2>
-                <div class="grid md:grid-cols-2 gap-6">
-                    
-                    <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border-2 border-blue-200">
-                        <h3 class="text-xl font-bold text-blue-900 mb-4 flex items-center">
-                            <span class="text-2xl mr-2">🎯</span>
-                            选择 ChatGPT Plus 如果你需要：
-                        </h3>
-                        <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-start">
-                                <span class="text-blue-500 mr-2">•</span>
-                                <span>全面的通用AI助手</span>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-blue-500 mr-2">•</span>
-                                <span>图像生成和创意设计</span>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-blue-500 mr-2">•</span>
-                                <span>数据分析和可视化</span>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-blue-500 mr-2">•</span>
-                                <span>插件和工具生态系统</span>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border-2 border-purple-200">
-                        <h3 class="text-xl font-bold text-purple-900 mb-4 flex items-center">
-                            <span class="text-2xl mr-2">💻</span>
-                            选择 Claude Pro 如果你需要：
-                        </h3>
-                        <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-start">
-                                <span class="text-purple-500 mr-2">•</span>
-                                <span>强大的编程和代码能力</span>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-purple-500 mr-2">•</span>
-                                <span>超长上下文文档分析</span>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-purple-500 mr-2">•</span>
-                                <span>复杂项目和大型代码库</span>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-purple-500 mr-2">•</span>
-                                <span>更细致的思维链推理</span>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-6 border-2 border-orange-200">
-                        <h3 class="text-xl font-bold text-orange-900 mb-4 flex items-center">
-                            <span class="text-2xl mr-2">📚</span>
-                            选择 Gemini Advanced 如果你需要：
-                        </h3>
-                        <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-start">
-                                <span class="text-orange-500 mr-2">•</span>
-                                <span>学术研究和深度分析</span>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-orange-500 mr-2">•</span>
-                                <span>处理超长文档和论文</span>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-orange-500 mr-2">•</span>
-                                <span>Google生态系统集成</span>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-orange-500 mr-2">•</span>
-                                <span>多模态内容理解</span>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-2xl p-6 border-2 border-indigo-200">
-                        <h3 class="text-xl font-bold text-indigo-900 mb-4 flex items-center">
-                            <span class="text-2xl mr-2">🌐</span>
-                            选择 Grok 如果你需要：
-                        </h3>
-                        <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-start">
-                                <span class="text-indigo-500 mr-2">•</span>
-                                <span>实时新闻和资讯</span>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-indigo-500 mr-2">•</span>
-                                <span>社交媒体数据分析</span>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-indigo-500 mr-2">•</span>
-                                <span>幽默风趣的交互风格</span>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-indigo-500 mr-2">•</span>
-                                <span>X(Twitter)平台信息</span>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- 总结建议 -->
-            <div class="bg-gradient-to-r from-green-50 to-teal-50 rounded-2xl shadow-lg p-8 mb-12 border-2 border-green-200 opacity-0 fade-in" style="opacity: 1; animation-delay: 0.6s;">
-                <h2 class="text-2xl font-bold text-green-900 mb-4 flex items-center">
-                    <span class="text-3xl mr-3">💡</span>
-                    选购建议
-                </h2>
-                <div class="space-y-3 text-gray-700">
-                    <p class="leading-relaxed">
-                        <strong>初次使用AI？</strong> 推荐从 <span class="text-blue-600 font-semibold">ChatGPT Plus</span> 开始，它是最全面和成熟的选择。
-                    </p>
-                    <p class="leading-relaxed">
-                        <strong>专业开发者？</strong> <span class="text-purple-600 font-semibold">Claude Pro</span> 的代码能力会让你惊艳。
-                    </p>
-                    <p class="leading-relaxed">
-                        <strong>学术研究？</strong> <span class="text-orange-600 font-semibold">Gemini Advanced</span> 的超长上下文和Deep Research功能非常适合。
-                    </p>
-                    <p class="leading-relaxed">
-                        <strong>需要实时信息？</strong> <span class="text-indigo-600 font-semibold">Grok</span> 的联网能力和社交媒体整合是独一无二的。
-                    </p>
-                </div>
-            </div>
-
-            <!-- CTA -->
-            <div class="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl shadow-2xl p-8 text-center">
-                <h2 class="text-3xl font-bold text-white mb-4">准备好选择适合你的AI了吗？</h2>
-                <p class="text-white/90 mb-6 text-lg">我们提供所有平台的安全快速充值服务</p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="index.html" class="inline-block px-8 py-4 bg-white text-indigo-600 font-bold rounded-xl hover:shadow-xl transition-all duration-300">
-                        立即充值
-                    </a>
-                    <a href="faq.html" class="inline-block px-8 py-4 bg-transparent border-2 border-white text-white font-bold rounded-xl hover:bg-white hover:text-indigo-600 transition-all duration-300">
-                        查看常见问题
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </article>
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12 px-4">
-        <div class="container mx-auto text-center">
-            <h3 class="text-2xl font-bold mb-4">AI会员充值服务</h3>
-            <p class="text-gray-400 mb-6">ChatGPT · Claude · Gemini · Grok 安全快速代充</p>
-            <div class="border-t border-gray-800 pt-6">
-                <p class="text-gray-500 text-sm">
-                    © 2024 AI会员充值服务. 本站仅提供技术服务，与 OpenAI/Anthropic/Google/xAI 无关联关系。
-                </p>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // 侧边栏功能
-        const menuButton = document.getElementById('menuButton');
-        const sidebar = document.getElementById('sidebar');
-        const overlay = document.getElementById('overlay');
-        const hamburger = menuButton.querySelector('.hamburger');
-        
-        function toggleSidebar() {
-            sidebar.classList.toggle('-translate-x-full');
-            overlay.classList.toggle('opacity-0');
-            overlay.classList.toggle('pointer-events-none');
-            hamburger.classList.toggle('active');
-            
-            if (!sidebar.classList.contains('-translate-x-full')) {
-                document.body.style.overflow = 'hidden';
-            } else {
-                document.body.style.overflow = '';
-            }
-        }
-        
-        menuButton.addEventListener('click', toggleSidebar);
-        overlay.addEventListener('click', toggleSidebar);
-        
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && !sidebar.classList.contains('-translate-x-full')) {
-                toggleSidebar();
-            }
-        });
-    </script>
-
-</body>
+  </body>
 </html>
-

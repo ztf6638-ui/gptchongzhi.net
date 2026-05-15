@@ -1,336 +1,391 @@
 <!DOCTYPE html>
-<html lang="zh-CN" class="scroll-smooth">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>博客文章 - AI会员充值服务</title>
-    <meta name="description" content="AI充值相关文章和使用指南">
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <link href="./index_files/css2.css" rel="stylesheet">
-    <script src="./index_files/saved_resource.js"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif']
-                    }
-                }
-            }
-        }
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI 充值攻略合集 | ChatGPT、Claude、Gemini、Grok 使用与选购指南</title>
+    <meta
+      name="description"
+      content="整理 ChatGPT Plus、Claude Pro、Gemini AI Pro、Grok 的使用指南、选购建议和实战内容，帮助用户更快完成 AI 会员充值与上手。"
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <link rel="canonical" href="https://gptchongzhi.net/blog.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="gptchongzhi.net" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:url" content="https://gptchongzhi.net/blog.html" />
+    <meta
+      property="og:title"
+      content="AI 充值攻略合集 | ChatGPT、Claude、Gemini、Grok 使用与选购指南"
+    />
+    <meta
+      property="og:description"
+      content="统一整理四类主流 AI 会员的使用攻略、价格选择和适用场景。"
+    />
+    <meta property="og:image" content="https://gptchongzhi.net/images/20251122.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="AI 充值攻略合集 | ChatGPT、Claude、Gemini、Grok"
+    />
+    <meta
+      name="twitter:description"
+      content="ChatGPT、Claude、Gemini、Grok 使用与选购指南合集。"
+    />
+    <meta name="twitter:image" content="https://gptchongzhi.net/images/20251122.jpg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Geist+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/site.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "name": "AI 充值攻略合集",
+            "url": "https://gptchongzhi.net/blog.html",
+            "description": "ChatGPT、Claude、Gemini、Grok 的使用攻略与选购内容合集"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://gptchongzhi.net/" },
+              { "@type": "ListItem", "position": 2, "name": "攻略合集", "item": "https://gptchongzhi.net/blog.html" }
+            ]
+          },
+          {
+            "@type": "ItemList",
+            "name": "AI 攻略文章列表",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "url": "https://gptchongzhi.net/chatgpt-plus-cn-recharge.html", "name": "ChatGPT Plus 国内怎么充值" },
+              { "@type": "ListItem", "position": 2, "url": "https://gptchongzhi.net/chatgpt-plus-worth-it.html", "name": "ChatGPT Plus 值不值得买" },
+              { "@type": "ListItem", "position": 3, "url": "https://gptchongzhi.net/guide.html", "name": "ChatGPT Plus 使用指南" },
+              { "@type": "ListItem", "position": 4, "url": "https://gptchongzhi.net/claude-pro-cn-setup.html", "name": "Claude Pro 国内怎么开通" },
+              { "@type": "ListItem", "position": 5, "url": "https://gptchongzhi.net/claude-pro-for-programmers.html", "name": "Claude Pro 适合程序员吗" },
+              { "@type": "ListItem", "position": 6, "url": "https://gptchongzhi.net/claude-pro-coding.html", "name": "Claude Pro 编程实战" },
+              { "@type": "ListItem", "position": 7, "url": "https://gptchongzhi.net/gemini-advanced-cn-recharge.html", "name": "Gemini Advanced 国内怎么充值" },
+              { "@type": "ListItem", "position": 8, "url": "https://gptchongzhi.net/gemini-advanced-worth-it.html", "name": "Gemini Advanced 值不值得买" },
+              { "@type": "ListItem", "position": 9, "url": "https://gptchongzhi.net/gemini-advanced-guide.html", "name": "Gemini Advanced 使用技巧" },
+              { "@type": "ListItem", "position": 10, "url": "https://gptchongzhi.net/grok-membership-setup.html", "name": "Grok 会员怎么开通" },
+              { "@type": "ListItem", "position": 11, "url": "https://gptchongzhi.net/grok-who-should-use.html", "name": "Grok 适合什么人用" },
+              { "@type": "ListItem", "position": 12, "url": "https://gptchongzhi.net/comparison.html", "name": "Plus 与 Pro 对比分析" },
+              { "@type": "ListItem", "position": 13, "url": "https://gptchongzhi.net/chatgpt-vs-claude.html", "name": "ChatGPT 和 Claude 怎么选" },
+              { "@type": "ListItem", "position": 14, "url": "https://gptchongzhi.net/claude-vs-gemini.html", "name": "Claude 和 Gemini 怎么选" },
+              { "@type": "ListItem", "position": 15, "url": "https://gptchongzhi.net/chatgpt-vs-gemini.html", "name": "ChatGPT 和 Gemini 怎么选" },
+              { "@type": "ListItem", "position": 16, "url": "https://gptchongzhi.net/four-ai-membership-guide.html", "name": "4 大 AI 会员选购指南" }
+            ]
+          }
+        ]
+      }
     </script>
-    <style>
-        ::-webkit-scrollbar { width: 0px; background: transparent; }
-        .gradient-bg { background: linear-gradient(135deg, #14B8A6 0%, #6366F1 100%); }
-        .fade-in { animation: fadeInUp 0.8s ease-out forwards; }
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        /* 汉堡菜单样式 */
-        .hamburger {
-            width: 24px;
-            height: 18px;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        
-        .hamburger span {
-            display: block;
-            height: 3px;
-            width: 100%;
-            background: linear-gradient(135deg, #14B8A6 0%, #6366F1 100%);
-            border-radius: 2px;
-            transition: all 0.3s ease;
-        }
-        
-        .hamburger.active span:nth-child(1) {
-            transform: translateY(7.5px) rotate(45deg);
-        }
-        
-        .hamburger.active span:nth-child(2) {
-            opacity: 0;
-        }
-        
-        .hamburger.active span:nth-child(3) {
-            transform: translateY(-7.5px) rotate(-45deg);
-        }
-        
-        .nav-item {
-            transform: translateX(0);
-            transition: all 0.2s ease;
-        }
-        
-        .nav-item:hover {
-            transform: translateX(5px);
-        }
-        
-        .article-card {
-            transition: all 0.3s ease;
-        }
-        
-        .article-card:hover {
-            transform: translateY(-5px);
-        }
-        
-        /* 菜单按钮脉冲效果 */
-        @keyframes pulse-slow {
-            0%, 100% {
-                transform: scale(1);
-                box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.7);
-            }
-            50% {
-                transform: scale(1.05);
-                box-shadow: 0 0 0 10px rgba(99, 102, 241, 0);
-            }
-        }
-        .animate-pulse-slow {
-            animation: pulse-slow 2s ease-in-out infinite;
-        }
-    </style>
-    
-    <!-- 百度统计代码 -->
-    <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?f24ab90c10aeed6e8da3e2eec71285e4";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-    </script>
-</head>
-<body class="font-sans bg-gray-50 text-gray-900">
-    
-    <!-- 菜单按钮 - 更明显的设计 -->
-    <button id="menuButton" class="fixed top-6 left-6 z-50 flex items-center gap-2 px-4 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 animate-pulse-slow">
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
+    <script defer src="/scripts/site.js"></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="container site-header__inner">
+          <a class="brand" href="/index.html">
+            <img src="/favicon-96x96.png" alt="AI充值服务 标志" />
+            <span>AI充值服务</span>
+          </a>
+          <nav class="nav" aria-label="主导航">
+            <a href="/chatgpt-plus.html">ChatGPT</a>
+            <a href="/gemini-advanced.html">Gemini</a>
+            <a href="/claude-pro.html">Claude</a>
+            <a href="/grok.html">Grok</a>
+            <a class="is-active" href="/blog.html">攻略</a>
+            <a href="/faq.html">FAQ</a>
+          </nav>
         </div>
-        <span class="text-sm hidden sm:inline">菜单</span>
-    </button>
+      </header>
 
-    <!-- 侧边栏导航 -->
-    <div id="sidebar" class="fixed inset-y-0 left-0 w-72 bg-white shadow-2xl transform -translate-x-full transition-transform duration-300 ease-in-out z-40">
-        <div class="flex flex-col h-full">
-            <div class="p-6 border-b border-gray-200">
-                <h2 class="text-2xl font-bold text-gray-900">AI充值服务</h2>
-            </div>
-            
-            <nav class="flex-1 overflow-y-auto p-4">
-                <a href="index.html" class="nav-item flex items-center px-4 py-3 mb-2 text-gray-700 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 rounded-lg transition-all duration-200 group">
-                    <span class="text-xl mr-3">🏠</span>
-                    <span class="font-medium group-hover:text-indigo-600">主页</span>
-                </a>
-                <a href="blog.html" class="nav-item flex items-center px-4 py-3 mb-2 text-gray-700 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg transition-all duration-200 group">
-                    <span class="text-xl mr-3">📚</span>
-                    <span class="font-medium text-indigo-600">博客</span>
-                </a>
-                <a href="faq.html" class="nav-item flex items-center px-4 py-3 mb-2 text-gray-700 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 rounded-lg transition-all duration-200 group">
-                    <span class="text-xl mr-3">❓</span>
-                    <span class="font-medium group-hover:text-indigo-600">常见问题</span>
-                </a>
-                <a href="guide.html" class="nav-item flex items-center px-4 py-3 mb-2 text-gray-700 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 rounded-lg transition-all duration-200 group">
-                    <span class="text-xl mr-3">📖</span>
-                    <span class="font-medium group-hover:text-indigo-600">ChatGPT Plus使用指南</span>
-                </a>
-                <a href="comparison.html" class="nav-item flex items-center px-4 py-3 mb-2 text-gray-700 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 rounded-lg transition-all duration-200 group">
-                    <span class="text-xl mr-3">🆚</span>
-                    <span class="font-medium group-hover:text-indigo-600">Plus与Pro对比分析</span>
-                </a>
-            </nav>
-            
-            <div class="p-4 border-t border-gray-200">
-                <div class="text-center text-sm text-gray-500">
-                    <p>客服微信：aicz6638</p>
+      <main>
+        <section class="page-hero">
+          <div class="container">
+            <p class="section__kicker">攻略</p>
+            <h1>AI 会员充值与使用攻略</h1>
+            <p>
+              博客页现在已经补成真实可落地的内容集合，不再出现“卡片有四张，正文只有两篇”的断层。每篇文章都对应独立页面、独立 canonical 和独立 schema。
+            </p>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="article-grid">
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">ChatGPT</span>
+                    <span class="tag">充值指南</span>
+                  </div>
+                  <h3>ChatGPT Plus 国内怎么充值</h3>
+                  <p class="article-card__desc">
+                    贴着当前专题页的卖点，讲清国内用户为什么卡在官网支付、什么人适合升级，以及购买前最该看的问题。
+                  </p>
+                  <a class="btn btn--secondary" href="/chatgpt-plus-cn-recharge.html">阅读全文</a>
                 </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">ChatGPT</span>
+                    <span class="tag">值不值得买</span>
+                  </div>
+                  <h3>ChatGPT Plus 值不值得买</h3>
+                  <p class="article-card__desc">
+                    围绕写作、研究、图像辅助和代码协作，判断什么人最容易长期把 ChatGPT 用出价值。
+                  </p>
+                  <a class="btn btn--secondary" href="/chatgpt-plus-worth-it.html">阅读全文</a>
+                </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">ChatGPT</span>
+                    <span class="tag">入门指南</span>
+                  </div>
+                  <h3>ChatGPT Plus 使用指南</h3>
+                  <p class="article-card__desc">
+                    从 Plus 能做什么、怎么用得更值，到提示词、数据分析、联网搜索等常见玩法，适合第一次升级的用户快速上手。
+                  </p>
+                  <a class="btn btn--secondary" href="/guide.html">阅读全文</a>
+                </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">Claude</span>
+                    <span class="tag">开通指南</span>
+                  </div>
+                  <h3>Claude Pro 国内怎么开通</h3>
+                  <p class="article-card__desc">
+                    贴着 Claude 专题页和程序员场景，讲清它适合谁、为什么总被和 ChatGPT 对比，以及开通前最常见的问题。
+                  </p>
+                  <a class="btn btn--secondary" href="/claude-pro-cn-setup.html">阅读全文</a>
+                </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">Claude</span>
+                    <span class="tag">程序员场景</span>
+                  </div>
+                  <h3>Claude Pro 适合程序员吗</h3>
+                  <p class="article-card__desc">
+                    从代码审查、重构、复杂上下文理解和技术表达角度，分析为什么程序员更容易长期留下 Claude。
+                  </p>
+                  <a class="btn btn--secondary" href="/claude-pro-for-programmers.html">阅读全文</a>
+                </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">Claude</span>
+                    <span class="tag">编程实战</span>
+                  </div>
+                  <h3>Claude Pro 编程实战</h3>
+                  <p class="article-card__desc">
+                    从代码审查、重构、长上下文项目理解，到和 ChatGPT 的协同分工，形成一篇独立可收录的真实内容页。
+                  </p>
+                  <a class="btn btn--secondary" href="/claude-pro-coding.html">阅读全文</a>
+                </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">Gemini</span>
+                    <span class="tag">充值指南</span>
+                  </div>
+                  <h3>Gemini Advanced 国内怎么充值</h3>
+                  <p class="article-card__desc">
+                    聚焦 Deep Think、Deep Research、长上下文和 Google 生态，讲清 Gemini 为什么值得被单独搜索。
+                  </p>
+                  <a class="btn btn--secondary" href="/gemini-advanced-cn-recharge.html">阅读全文</a>
+                </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">Gemini</span>
+                    <span class="tag">值不值得买</span>
+                  </div>
+                  <h3>Gemini Advanced 值不值得买</h3>
+                  <p class="article-card__desc">
+                    围绕研究、资料整合、NotebookLM Plus 和长文档处理，判断什么人最适合买 Gemini。
+                  </p>
+                  <a class="btn btn--secondary" href="/gemini-advanced-worth-it.html">阅读全文</a>
+                </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">Gemini</span>
+                    <span class="tag">进阶教程</span>
+                  </div>
+                  <h3>Gemini Advanced 使用技巧</h3>
+                  <p class="article-card__desc">
+                    聚焦长上下文、NotebookLM Plus、多模态能力和研究型工作流，补齐原来只挂卡片没有正文的内容缺口。
+                  </p>
+                  <a class="btn btn--secondary" href="/gemini-advanced-guide.html">阅读全文</a>
+                </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">Grok</span>
+                    <span class="tag">开通指南</span>
+                  </div>
+                  <h3>Grok 会员怎么开通</h3>
+                  <p class="article-card__desc">
+                    围绕实时信息、Voice Agent、DeepSearch 和 X 平台语境，判断 Grok 到底适不适合你。
+                  </p>
+                  <a class="btn btn--secondary" href="/grok-membership-setup.html">阅读全文</a>
+                </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">Grok</span>
+                    <span class="tag">适合人群</span>
+                  </div>
+                  <h3>Grok 适合什么人用</h3>
+                  <p class="article-card__desc">
+                    从实时信息、社媒语境和开放网络场景出发，判断 Grok 更适合什么样的长期使用者。
+                  </p>
+                  <a class="btn btn--secondary" href="/grok-who-should-use.html">阅读全文</a>
+                </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">对比分析</span>
+                    <span class="tag">选购建议</span>
+                  </div>
+                  <h3>Plus 与 Pro 对比分析</h3>
+                  <p class="article-card__desc">
+                    从能力、价格、适合人群、典型场景四个维度，对 ChatGPT、Claude、Gemini、Grok 四条产品线做选购拆解。
+                  </p>
+                  <a class="btn btn--secondary" href="/comparison.html">阅读全文</a>
+                </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">ChatGPT</span>
+                    <span class="tag">Claude</span>
+                  </div>
+                  <h3>ChatGPT 和 Claude 怎么选</h3>
+                  <p class="article-card__desc">
+                    如果你只买一个，先看这篇快速理解通用主力和代码长文本场景之间的真实差异。
+                  </p>
+                  <a class="btn btn--secondary" href="/chatgpt-vs-claude.html">阅读全文</a>
+                </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">Claude</span>
+                    <span class="tag">Gemini</span>
+                  </div>
+                  <h3>Claude 和 Gemini 怎么选</h3>
+                  <p class="article-card__desc">
+                    如果你在工程协作和研究资料处理之间犹豫，这篇会比单纯看参数更实用。
+                  </p>
+                  <a class="btn btn--secondary" href="/claude-vs-gemini.html">阅读全文</a>
+                </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">ChatGPT</span>
+                    <span class="tag">Gemini</span>
+                  </div>
+                  <h3>ChatGPT 和 Gemini 怎么选</h3>
+                  <p class="article-card__desc">
+                    如果你在均衡通用主力和长资料研究助手之间犹豫，先看这篇对比。
+                  </p>
+                  <a class="btn btn--secondary" href="/chatgpt-vs-gemini.html">阅读全文</a>
+                </div>
+              </article>
+
+              <article class="article-card">
+                <div class="article-card__body">
+                  <div class="article-card__meta">
+                    <span class="tag">总决策</span>
+                    <span class="tag">4 大 AI</span>
+                  </div>
+                  <h3>4 大 AI 会员选购指南</h3>
+                  <p class="article-card__desc">
+                    按内容写作、代码开发、研究分析、实时信息四类需求，帮你快速判断哪款 AI 最适合你。
+                  </p>
+                  <a class="btn btn--secondary" href="/four-ai-membership-guide.html">阅读全文</a>
+                </div>
+              </article>
             </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container site-footer__grid">
+          <div>
+            <h4>AI充值服务</h4>
+            <p>聚合 AI 会员充值信息与使用攻略，帮助用户从购买到上手形成闭环。</p>
+          </div>
+          <div>
+            <h4>内容</h4>
+            <ul>
+              <li><a href="/chatgpt-plus-cn-recharge.html">ChatGPT 充值指南</a></li>
+              <li><a href="/chatgpt-plus-worth-it.html">ChatGPT 值不值得买</a></li>
+              <li><a href="/guide.html">ChatGPT 指南</a></li>
+              <li><a href="/claude-pro-cn-setup.html">Claude 开通指南</a></li>
+              <li><a href="/gemini-advanced-cn-recharge.html">Gemini 充值指南</a></li>
+              <li><a href="/grok-membership-setup.html">Grok 开通指南</a></li>
+              <li><a href="/comparison.html">对比分析</a></li>
+              <li><a href="/four-ai-membership-guide.html">4 大 AI 选购指南</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>服务</h4>
+            <ul>
+              <li><a href="/chatgpt-plus.html">查看专题页</a></li>
+              <li><a href="https://fe.dtyuedan.cn/shop/L8V0BD2G" target="_blank" rel="noopener">立即购买</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>联系</h4>
+            <ul>
+              <li>客服微信 aicz6638</li>
+              <li><button class="btn btn--secondary" type="button" onclick="copyWechat()">复制微信号</button></li>
+            </ul>
+          </div>
         </div>
+      </footer>
     </div>
-
-    <!-- 遮罩层 -->
-    <div id="overlay" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-30 opacity-0 pointer-events-none transition-opacity duration-300"></div>
-    
-    <!-- 页面头部 -->
-    <section class="gradient-bg py-20 px-4 relative overflow-hidden">
-        <div class="absolute inset-0 bg-black/10"></div>
-        <div class="container mx-auto text-center relative z-10 opacity-0 fade-in" id="header" style="opacity: 1;">
-            <h1 class="text-5xl font-bold text-white mb-4">📚 博客首页</h1>
-            <p class="text-xl text-white/90">探索AI工具的使用技巧和最新资讯</p>
-        </div>
-    </section>
-
-    <!-- 博客文章列表 -->
-    <section class="py-16 px-4">
-        <div class="container mx-auto max-w-6xl">
-            <div class="grid md:grid-cols-2 gap-8">
-                
-                <!-- 文章卡片1 - ChatGPT Plus使用指南 -->
-                <div class="article-card bg-white rounded-2xl shadow-lg overflow-hidden opacity-0 fade-in" style="opacity: 1;">
-                    <div class="p-8">
-                        <div class="flex items-center mb-4">
-                            <span class="text-4xl mr-3">📖</span>
-                            <div>
-                                <h2 class="text-2xl font-bold text-gray-900">ChatGPT Plus使用指南</h2>
-                                <p class="text-sm text-gray-500 mt-1">全面了解ChatGPT Plus的功能和使用方法</p>
-                            </div>
-                        </div>
-                        <p class="text-gray-600 mb-6 leading-relaxed">
-                            ChatGPT Plus是OpenAI推出的高级订阅服务，提供更快的响应速度、优先访问新功能以及在高峰时段的稳定访问。本指南将帮助您充分利用Plus会员的所有功能。
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-6">
-                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">ChatGPT</span>
-                            <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">使用指南</span>
-                            <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">Plus会员</span>
-                        </div>
-                        <a href="guide.html" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-indigo-600 to-blue-500 text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-300">
-                            阅读全文 →
-                        </a>
-                    </div>
-                </div>
-
-                <!-- 文章卡片2 - Plus与Pro对比分析 -->
-                <div class="article-card bg-white rounded-2xl shadow-lg overflow-hidden opacity-0 fade-in" style="opacity: 1; animation-delay: 0.1s;">
-                    <div class="p-8">
-                        <div class="flex items-center mb-4">
-                            <span class="text-4xl mr-3">🆚</span>
-                            <div>
-                                <h2 class="text-2xl font-bold text-gray-900">Plus与Pro对比分析</h2>
-                                <p class="text-sm text-gray-500 mt-1">深入对比各大AI平台的高级会员服务</p>
-                            </div>
-                        </div>
-                        <p class="text-gray-600 mb-6 leading-relaxed">
-                            ChatGPT Plus、Claude Pro、Gemini Advanced如何选择？本文将从功能、价格、使用场景等多个维度进行详细对比，帮助您做出最适合的选择。
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-6">
-                            <span class="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-sm">对比分析</span>
-                            <span class="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm">选购指南</span>
-                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">深度评测</span>
-                        </div>
-                        <a href="comparison.html" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-500 text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-300">
-                            阅读全文 →
-                        </a>
-                    </div>
-                </div>
-
-                <!-- 文章卡片3 - Gemini Advanced使用技巧 -->
-                <div class="article-card bg-white rounded-2xl shadow-lg overflow-hidden opacity-0 fade-in" style="opacity: 1; animation-delay: 0.2s;">
-                    <div class="p-8">
-                        <div class="flex items-center mb-4">
-                            <span class="text-4xl mr-3">🌟</span>
-                            <div>
-                                <h2 class="text-2xl font-bold text-gray-900">Gemini Advanced使用技巧</h2>
-                                <p class="text-sm text-gray-500 mt-1">发挥Google AI的最大潜力</p>
-                            </div>
-                        </div>
-                        <p class="text-gray-600 mb-6 leading-relaxed">
-                            Gemini Advanced是Google最强大的AI模型，支持100万token超长上下文和多模态理解。了解如何利用Deep Research功能进行深度学术研究，以及如何处理长文档分析。
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-6">
-                            <span class="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm">Gemini</span>
-                            <span class="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-sm">使用技巧</span>
-                            <span class="px-3 py-1 bg-pink-100 text-pink-700 rounded-full text-sm">进阶教程</span>
-                        </div>
-                        <a href="guide.html" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-green-600 to-teal-500 text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-300">
-                            阅读全文 →
-                        </a>
-                    </div>
-                </div>
-
-                <!-- 文章卡片4 - Claude Pro编程实战 -->
-                <div class="article-card bg-white rounded-2xl shadow-lg overflow-hidden opacity-0 fade-in" style="opacity: 1; animation-delay: 0.3s;">
-                    <div class="p-8">
-                        <div class="flex items-center mb-4">
-                            <span class="text-4xl mr-3">🤖</span>
-                            <div>
-                                <h2 class="text-2xl font-bold text-gray-900">Claude Pro编程实战</h2>
-                                <p class="text-sm text-gray-500 mt-1">代码之神的正确打开方式</p>
-                            </div>
-                        </div>
-                        <p class="text-gray-600 mb-6 leading-relaxed">
-                            Claude Pro被誉为"代码之神"，在编程领域表现出色。本文将介绍如何使用Claude进行代码审查、调试、重构以及项目开发，充分发挥其200K上下文窗口的优势。
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-6">
-                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm">Claude</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">编程开发</span>
-                            <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">实战案例</span>
-                        </div>
-                        <a href="guide.html" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-orange-600 to-red-500 text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-300">
-                            阅读全文 →
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12 px-4">
-        <div class="container mx-auto text-center">
-            <h3 class="text-2xl font-bold mb-4">AI会员充值服务</h3>
-            <p class="text-gray-400 mb-6">ChatGPT · Claude · Gemini · Grok 安全快速代充</p>
-            <div class="flex flex-col sm:flex-row gap-6 justify-center mb-8">
-                <div class="flex items-center justify-center text-gray-400">
-                    <span class="mr-2">💬</span>
-                    <span>客服微信: aicz6638</span>
-                </div>
-                <div class="flex items-center justify-center text-gray-400">
-                    <span class="mr-2">📱</span>
-                    <span>iOS 正规代充服务</span>
-                </div>
-            </div>
-            <div class="border-t border-gray-800 pt-6">
-                <p class="text-gray-500 text-sm">
-                    © 2024 AI会员充值服务. 本站仅提供技术服务，与 OpenAI/Anthropic/Google/xAI 无关联关系。
-                </p>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // 侧边栏功能
-        const menuButton = document.getElementById('menuButton');
-        const sidebar = document.getElementById('sidebar');
-        const overlay = document.getElementById('overlay');
-        const hamburger = menuButton.querySelector('.hamburger');
-        
-        function toggleSidebar() {
-            sidebar.classList.toggle('-translate-x-full');
-            overlay.classList.toggle('opacity-0');
-            overlay.classList.toggle('pointer-events-none');
-            hamburger.classList.toggle('active');
-            
-            if (!sidebar.classList.contains('-translate-x-full')) {
-                document.body.style.overflow = 'hidden';
-            } else {
-                document.body.style.overflow = '';
-            }
-        }
-        
-        menuButton.addEventListener('click', toggleSidebar);
-        overlay.addEventListener('click', toggleSidebar);
-        
-        // ESC键关闭侧边栏
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && !sidebar.classList.contains('-translate-x-full')) {
-                toggleSidebar();
-            }
-        });
-
-        // 页面加载动画
-        document.addEventListener('DOMContentLoaded', function() {
-            setTimeout(() => {
-                document.getElementById('header').style.opacity = '1';
-            }, 100);
-        });
-    </script>
-
-</body>
+  </body>
 </html>
