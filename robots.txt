@@ -1,4 +1,4 @@
-# robots.txt for gptchongzhi.net
+# robots.txt for ai6638.com
 # 网站搜索引擎爬虫规则
 
 # 允许所有搜索引擎抓取
@@ -37,7 +37,7 @@ User-agent: YisouSpider
 Allow: /
 
 # 网站地图位置
-Sitemap: https://gptchongzhi.net/sitemap.xml
+Sitemap: https://ai6638.com/sitemap.xml
 
 # 站点主域名（主要供百度参考）
-Host: gptchongzhi.net
+Host: ai6638.com
