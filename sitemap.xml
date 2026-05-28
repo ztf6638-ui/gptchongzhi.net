@@ -20,6 +20,14 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- 教程合集页 -->
+  <url>
+    <loc>https://ai6638.com/tutorials</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- 常见问题页 -->
   <url>
     <loc>https://ai6638.com/faq</loc>
