@@ -33,11 +33,43 @@
             "@type": "Article",
             "headline": "AI 会员充值失败怎么办？支付、到账、账号状态排查",
             "description": "整理 AI 会员充值失败、到账延迟、支付异常和账号状态异常的处理思路。",
-            "dateModified": "2026-05-27",
+            "dateModified": "2026-05-31",
             "author": { "@type": "Organization", "name": "AI充值服务" },
             "publisher": { "@type": "Organization", "name": "AI充值服务", "logo": { "@type": "ImageObject", "url": "https://ai6638.com/favicon-96x96.png" } },
             "image": "https://ai6638.com/images/20251122.jpg",
             "mainEntityOfPage": "https://ai6638.com/recharge-troubleshooting"
+          },
+          {
+            "@type": "HowTo",
+            "name": "AI 会员充值失败自助排查",
+            "description": "按支付状态、账号套餐、到账延迟和客服核对信息四步排查 AI 会员充值失败或到账延迟问题。",
+            "totalTime": "PT8M",
+            "step": [
+              {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "确认支付是否完成",
+                "text": "先查看支付平台是否显示扣款成功，并保留订单号、付款截图和购买套餐名称。"
+              },
+              {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "确认账号和套餐是否对应",
+                "text": "检查充值账号、邮箱、AI 产品和套餐是否填写正确，避免把 ChatGPT、Claude、Gemini、Grok 套餐选混。"
+              },
+              {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "判断是否只是到账延迟",
+                "text": "退出账号后重新登录，或等待一段时间再刷新会员状态，避免短时间内重复提交。"
+              },
+              {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "联系客服核对订单",
+                "text": "如果状态仍未变化，整理订单号、付款截图、账号会员状态和报错截图，联系微信 aicz6638 处理。"
+              }
+            ]
           },
           {
             "@type": "FAQPage",
@@ -61,7 +93,7 @@
   </head>
   <body>
     <div class="site-shell">
-      <header class="site-header"><div class="container site-header__inner"><a class="brand" href="/"><img src="/favicon-96x96.png" alt="AI充值服务 标志" /><span>AI充值服务</span></a><nav class="nav" aria-label="主导航"><a href="/chatgpt-plus">ChatGPT</a><a href="/gemini-advanced">Gemini</a><a href="/claude-pro">Claude</a><a href="/grok">Grok</a><a class="is-active" href="/blog">攻略</a><a href="/faq">FAQ</a></nav></div></header>
+      <header class="site-header"><div class="container site-header__inner"><a class="brand" href="/"><img src="/favicon-96x96.png" alt="AI充值服务 标志" /><span>AI充值服务</span></a><nav class="nav" aria-label="主导航"><a href="/chatgpt-plus">ChatGPT</a><a href="/gemini-advanced">Gemini</a><a href="/claude-pro">Claude</a><a href="/grok">Grok</a><div class="tutorial-dropdown"><a class="tutorial-dropdown__trigger" href="/tutorials">教程 <span class="tutorial-dropdown__chevron">⌄</span></a><div class="tutorial-dropdown__panel" aria-label="教程快捷入口"><a class="tutorial-dropdown__item" href="https://mp.weixin.qq.com/s/4g8pTFF-wpf5aK_fLbQP0A" target="_blank" rel="noopener"><span class="tutorial-dropdown__icon">📖</span><span><strong>ChatGPT 充值教程</strong><span>图文 + 视频完整流程</span></span></a><a class="tutorial-dropdown__item" href="/chatgpt-register-guide"><span class="tutorial-dropdown__icon">❔</span><span><strong>ChatGPT 注册教程</strong><span>邮箱验证与升级前准备</span></span></a><a class="tutorial-dropdown__item" href="/recharge-troubleshooting"><span class="tutorial-dropdown__icon">🔧</span><span><strong>充值失败自助排查</strong><span>快速定位充值问题</span></span></a><a class="tutorial-dropdown__item" href="/tutorials"><span class="tutorial-dropdown__icon">📚</span><span><strong>全部教程合集</strong><span>所有教程单页集中查看</span></span></a></div></div><a class="is-active" href="/blog">攻略</a><a href="/faq">FAQ</a></nav></div></header>
       <main>
         <section class="page-hero"><div class="container"><p class="section__kicker">售后排查</p><h1>AI 会员充值失败怎么办？</h1><p>如果支付成功但会员状态没有立刻变化，先别反复操作。按“支付状态、订单信息、账号状态、到账延迟”四步排查，能更快定位问题。</p></div></section>
         <section class="section"><div class="container prose">

@@ -27,7 +27,13 @@
     <link rel="stylesheet" href="/styles/site.css" />
     <script type="application/ld+json">
       { "@context": "https://schema.org", "@graph": [
-        { "@type": "Article", "headline": "ChatGPT IP 质量怎么检测？代理风险与账号体验排查", "description": "讲清如何判断 IP 类型、风险分、是否为机房 IP 或家宽 IP。", "dateModified": "2026-05-27", "author": { "@type": "Organization", "name": "AI充值服务" }, "publisher": { "@type": "Organization", "name": "AI充值服务", "logo": { "@type": "ImageObject", "url": "https://ai6638.com/favicon-96x96.png" } }, "image": "https://ai6638.com/images/20251122.jpg", "mainEntityOfPage": "https://ai6638.com/chatgpt-ip-quality-check" },
+        { "@type": "Article", "headline": "ChatGPT IP 质量怎么检测？代理风险与账号体验排查", "description": "讲清如何判断 IP 类型、风险分、是否为机房 IP 或家宽 IP。", "dateModified": "2026-05-31", "author": { "@type": "Organization", "name": "AI充值服务" }, "publisher": { "@type": "Organization", "name": "AI充值服务", "logo": { "@type": "ImageObject", "url": "https://ai6638.com/favicon-96x96.png" } }, "image": "https://ai6638.com/images/20251122.jpg", "mainEntityOfPage": "https://ai6638.com/chatgpt-ip-quality-check" },
+        { "@type": "HowTo", "name": "ChatGPT IP 质量检测步骤", "description": "按 IP 类型、风险分、共享程度和地区一致性排查 ChatGPT 使用环境。", "totalTime": "PT8M", "step": [
+          { "@type": "HowToStep", "position": 1, "name": "查看 IP 类型", "text": "先区分当前网络是家宽 IP、商业宽带还是机房 IP，长期使用优先选择更接近真实用户环境的网络。" },
+          { "@type": "HowToStep", "position": 2, "name": "检查风险分和代理标记", "text": "使用公开 IP 查询工具查看是否存在 Data Center、Hosting、Proxy、VPN、Anonymous 等高风险标记。" },
+          { "@type": "HowToStep", "position": 3, "name": "观察共享程度和地区稳定性", "text": "确认出口 IP 是否多人共享，以及账号常用地区和 IP 所在地是否长期稳定。" },
+          { "@type": "HowToStep", "position": 4, "name": "更换稳定环境后复测体验", "text": "如果检测结果不理想，先换稳定环境，再重新观察 ChatGPT 登录、对话和会员功能是否恢复正常。" }
+        ] },
         { "@type": "FAQPage", "mainEntity": [
           { "@type": "Question", "name": "IP 速度快就代表质量好吗？", "acceptedAnswer": { "@type": "Answer", "text": "不一定。速度只代表连接体验，IP 类型、风险分、共享人数和历史信誉才更接近账号风控判断。" } },
           { "@type": "Question", "name": "什么 IP 更适合长期使用 ChatGPT？", "acceptedAnswer": { "@type": "Answer", "text": "稳定、低风险、少共享、地区一致的网络环境更适合长期使用。家宽 IP 通常比机房 IP 更接近真实用户环境。" } }
@@ -43,7 +49,7 @@
   </head>
   <body>
     <div class="site-shell">
-      <header class="site-header"><div class="container site-header__inner"><a class="brand" href="/"><img src="/favicon-96x96.png" alt="AI充值服务 标志" /><span>AI充值服务</span></a><nav class="nav" aria-label="主导航"><a class="is-active" href="/chatgpt-plus">ChatGPT</a><a href="/gemini-advanced">Gemini</a><a href="/claude-pro">Claude</a><a href="/grok">Grok</a><a href="/blog">攻略</a><a href="/faq">FAQ</a></nav></div></header>
+      <header class="site-header"><div class="container site-header__inner"><a class="brand" href="/"><img src="/favicon-96x96.png" alt="AI充值服务 标志" /><span>AI充值服务</span></a><nav class="nav" aria-label="主导航"><a class="is-active" href="/chatgpt-plus">ChatGPT</a><a href="/gemini-advanced">Gemini</a><a href="/claude-pro">Claude</a><a href="/grok">Grok</a><div class="tutorial-dropdown"><a class="tutorial-dropdown__trigger" href="/tutorials">教程 <span class="tutorial-dropdown__chevron">⌄</span></a><div class="tutorial-dropdown__panel" aria-label="教程快捷入口"><a class="tutorial-dropdown__item" href="https://mp.weixin.qq.com/s/4g8pTFF-wpf5aK_fLbQP0A" target="_blank" rel="noopener"><span class="tutorial-dropdown__icon">📖</span><span><strong>ChatGPT 充值教程</strong><span>图文 + 视频完整流程</span></span></a><a class="tutorial-dropdown__item" href="/chatgpt-register-guide"><span class="tutorial-dropdown__icon">❔</span><span><strong>ChatGPT 注册教程</strong><span>邮箱验证与升级前准备</span></span></a><a class="tutorial-dropdown__item" href="/recharge-troubleshooting"><span class="tutorial-dropdown__icon">🔧</span><span><strong>充值失败自助排查</strong><span>快速定位充值问题</span></span></a><a class="tutorial-dropdown__item" href="/tutorials"><span class="tutorial-dropdown__icon">📚</span><span><strong>全部教程合集</strong><span>所有教程单页集中查看</span></span></a></div></div><a href="/blog">攻略</a><a href="/faq">FAQ</a></nav></div></header>
       <main>
         <section class="page-hero"><div class="container"><p class="section__kicker">IP 检测</p><h1>ChatGPT IP 质量怎么检测？</h1><p>节点速度快，不等于账号体验稳定。对 ChatGPT 来说，IP 类型、风险分、共享程度和地区稳定性，往往比测速结果更关键。</p></div></section>
         <section class="section"><div class="container prose">

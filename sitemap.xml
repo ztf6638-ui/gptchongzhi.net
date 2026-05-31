@@ -7,7 +7,7 @@
   <!-- 首页 - 最高优先级 -->
   <url>
     <loc>https://ai6638.com/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -15,7 +15,7 @@
   <!-- 博客页 -->
   <url>
     <loc>https://ai6638.com/blog</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -23,7 +23,7 @@
   <!-- 教程合集页 -->
   <url>
     <loc>https://ai6638.com/tutorials</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -39,7 +39,7 @@
   <!-- 使用指南页 -->
   <url>
     <loc>https://ai6638.com/guide</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -55,7 +55,7 @@
   <!-- ChatGPT Plus 专题页 -->
   <url>
     <loc>https://ai6638.com/chatgpt-plus</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -63,7 +63,7 @@
   <!-- ChatGPT 国内充值文章页 -->
   <url>
     <loc>https://ai6638.com/chatgpt-plus-cn-recharge</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -71,7 +71,7 @@
   <!-- ChatGPT 注册教程页 -->
   <url>
     <loc>https://ai6638.com/chatgpt-register-guide</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -79,7 +79,7 @@
   <!-- 充值失败处理页 -->
   <url>
     <loc>https://ai6638.com/recharge-troubleshooting</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -103,7 +103,7 @@
   <!-- ChatGPT IP 质量检测页 -->
   <url>
     <loc>https://ai6638.com/chatgpt-ip-quality-check</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -127,7 +127,7 @@
   <!-- Gemini Advanced 专题页 -->
   <url>
     <loc>https://ai6638.com/gemini-advanced</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -135,7 +135,7 @@
   <!-- Claude Pro 专题页 -->
   <url>
     <loc>https://ai6638.com/claude-pro</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -143,7 +143,7 @@
   <!-- Claude 国内开通文章页 -->
   <url>
     <loc>https://ai6638.com/claude-pro-cn-setup</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -159,7 +159,7 @@
   <!-- Grok 专题页 -->
   <url>
     <loc>https://ai6638.com/grok</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
