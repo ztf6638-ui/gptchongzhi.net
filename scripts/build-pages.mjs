@@ -5,7 +5,6 @@ const root = process.cwd();
 const outDir = path.join(root, "dist");
 
 const files = [
-  "_redirects",
   "robots.txt",
   "sitemap.xml",
   "rss.xml",
