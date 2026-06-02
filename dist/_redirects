@@ -1,0 +1,13 @@
+# Preserve paths from legacy domains to the canonical domain.
+# Examples:
+# https://gptchongzhi.net/chatgpt-plus -> https://ai6638.com/chatgpt-plus
+# https://aicz.shop/tutorials -> https://ai6638.com/tutorials
+https://gptchongzhi.net/* https://ai6638.com/:splat 301
+https://www.gptchongzhi.net/* https://ai6638.com/:splat 301
+https://aicz.shop/* https://ai6638.com/:splat 301
+https://www.aicz.shop/* https://ai6638.com/:splat 301
+
+# Canonical HTTPS fallback for the primary domain.
+http://ai6638.com/* https://ai6638.com/:splat 301
+http://www.ai6638.com/* https://ai6638.com/:splat 301
+https://www.ai6638.com/* https://ai6638.com/:splat 301

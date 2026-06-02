@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>AI充值服务攻略</title>
+    <link>https://ai6638.com/blog</link>
+    <description>ChatGPT、Claude、Gemini、Grok 的充值、注册、风控排查与选购指南。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 28 May 2026 00:00:00 +0800</lastBuildDate>
+    <item>
+      <title>ChatGPT 注册教程：国内邮箱怎么注册与升级 Plus</title>
+      <link>https://ai6638.com/chatgpt-register-guide</link>
+      <guid>https://ai6638.com/chatgpt-register-guide</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0800</pubDate>
+      <description>面向国内用户的 ChatGPT 注册教程，讲清邮箱注册、常见注册失败原因、注册后如何升级 Plus。</description>
+    </item>
+    <item>
+      <title>AI 会员充值失败怎么办？支付、到账、账号状态排查</title>
+      <link>https://ai6638.com/recharge-troubleshooting</link>
+      <guid>https://ai6638.com/recharge-troubleshooting</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0800</pubDate>
+      <description>整理 AI 会员充值失败、到账延迟、支付异常和账号状态异常的处理思路。</description>
+    </item>
+    <item>
+      <title>ChatGPT 降智怎么判断？账号状态与模型体验排查</title>
+      <link>https://ai6638.com/chatgpt-degradation-check</link>
+      <guid>https://ai6638.com/chatgpt-degradation-check</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0800</pubDate>
+      <description>从模型表现、账号状态、网络环境三个角度排查 ChatGPT 降智。</description>
+    </item>
+    <item>
+      <title>OpenAI 风控机制：为什么 ChatGPT 会受 IP 环境影响</title>
+      <link>https://ai6638.com/chatgpt-ip-risk-control</link>
+      <guid>https://ai6638.com/chatgpt-ip-risk-control</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0800</pubDate>
+      <description>解释机房 IP、共享节点、频繁切换地区与账号体验之间的关系。</description>
+    </item>
+    <item>
+      <title>ChatGPT IP 质量怎么检测？代理风险与账号体验排查</title>
+      <link>https://ai6638.com/chatgpt-ip-quality-check</link>
+      <guid>https://ai6638.com/chatgpt-ip-quality-check</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0800</pubDate>
+      <description>讲清 IP 类型、风险分、共享程度和地区一致性如何影响 ChatGPT 使用体验。</description>
+    </item>
+    <item>
+      <title>家宽 IP 是什么？为什么更适合稳定使用 ChatGPT</title>
+      <link>https://ai6638.com/residential-ip-guide</link>
+      <guid>https://ai6638.com/residential-ip-guide</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0800</pubDate>
+      <description>解释家宽 IP、机房 IP、Residential IP 的区别，以及为什么稳定真实的网络环境更重要。</description>
+    </item>
+  </channel>
+</rss>

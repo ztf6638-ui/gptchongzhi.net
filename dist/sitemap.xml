@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- 首页 - 最高优先级 -->
+  <url>
+    <loc>https://ai6638.com/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 博客页 -->
+  <url>
+    <loc>https://ai6638.com/blog</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 教程合集页 -->
+  <url>
+    <loc>https://ai6638.com/tutorials</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 常见问题页 -->
+  <url>
+    <loc>https://ai6638.com/faq</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 使用指南页 -->
+  <url>
+    <loc>https://ai6638.com/guide</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 对比分析页 -->
+  <url>
+    <loc>https://ai6638.com/comparison</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ChatGPT Plus 专题页 -->
+  <url>
+    <loc>https://ai6638.com/chatgpt-plus</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ChatGPT 国内充值文章页 -->
+  <url>
+    <loc>https://ai6638.com/chatgpt-plus-cn-recharge</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ChatGPT 注册教程页 -->
+  <url>
+    <loc>https://ai6638.com/chatgpt-register-guide</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 充值失败处理页 -->
+  <url>
+    <loc>https://ai6638.com/recharge-troubleshooting</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ChatGPT 降智检测页 -->
+  <url>
+    <loc>https://ai6638.com/chatgpt-degradation-check</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- OpenAI 风控机制页 -->
+  <url>
+    <loc>https://ai6638.com/chatgpt-ip-risk-control</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ChatGPT IP 质量检测页 -->
+  <url>
+    <loc>https://ai6638.com/chatgpt-ip-quality-check</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 家宽 IP 指南页 -->
+  <url>
+    <loc>https://ai6638.com/residential-ip-guide</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ChatGPT 值不值得买文章页 -->
+  <url>
+    <loc>https://ai6638.com/chatgpt-plus-worth-it</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ChatGPT Pro 客户落地页 -->
+  <url>
+    <loc>https://ai6638.com/chatgpt-pro</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ChatGPT Plus 价格方案页 -->
+  <url>
+    <loc>https://ai6638.com/plus-price</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- OpenAI API 额度充值页 -->
+  <url>
+    <loc>https://ai6638.com/api-credits</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Codex 订阅充值页 -->
+  <url>
+    <loc>https://ai6638.com/codex</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gemini Advanced 专题页 -->
+  <url>
+    <loc>https://ai6638.com/gemini-advanced</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Claude Pro 专题页 -->
+  <url>
+    <loc>https://ai6638.com/claude-pro</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Claude 国内开通文章页 -->
+  <url>
+    <loc>https://ai6638.com/claude-pro-cn-setup</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Claude 程序员适配文章页 -->
+  <url>
+    <loc>https://ai6638.com/claude-pro-for-programmers</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Grok 专题页 -->
+  <url>
+    <loc>https://ai6638.com/grok</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Gemini 国内充值文章页 -->
+  <url>
+    <loc>https://ai6638.com/gemini-advanced-cn-recharge</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gemini 值不值得买文章页 -->
+  <url>
+    <loc>https://ai6638.com/gemini-advanced-worth-it</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Grok 开通文章页 -->
+  <url>
+    <loc>https://ai6638.com/grok-membership-setup</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Grok 适合人群文章页 -->
+  <url>
+    <loc>https://ai6638.com/grok-who-should-use</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gemini 进阶指南页 -->
+  <url>
+    <loc>https://ai6638.com/gemini-advanced-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Claude 编程实战页 -->
+  <url>
+    <loc>https://ai6638.com/claude-pro-coding</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ChatGPT 和 Claude 对比页 -->
+  <url>
+    <loc>https://ai6638.com/chatgpt-vs-claude</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Claude 和 Gemini 对比页 -->
+  <url>
+    <loc>https://ai6638.com/claude-vs-gemini</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ChatGPT 和 Gemini 对比页 -->
+  <url>
+    <loc>https://ai6638.com/chatgpt-vs-gemini</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 四大 AI 会员总决策页 -->
+  <url>
+    <loc>https://ai6638.com/four-ai-membership-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
