@@ -124,6 +124,38 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- ChatGPT Pro 客户落地页 -->
+  <url>
+    <loc>https://ai6638.com/chatgpt-pro</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ChatGPT Plus 价格方案页 -->
+  <url>
+    <loc>https://ai6638.com/plus-price</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- OpenAI API 额度充值页 -->
+  <url>
+    <loc>https://ai6638.com/api-credits</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Codex 订阅充值页 -->
+  <url>
+    <loc>https://ai6638.com/codex</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Gemini Advanced 专题页 -->
   <url>
     <loc>https://ai6638.com/gemini-advanced</loc>
