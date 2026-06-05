@@ -276,4 +276,36 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- 关于我们页 -->
+  <url>
+    <loc>https://ai6638.com/about</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 服务条款页 -->
+  <url>
+    <loc>https://ai6638.com/service-terms</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- 隐私政策页 -->
+  <url>
+    <loc>https://ai6638.com/privacy-policy</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- 售后说明页 -->
+  <url>
+    <loc>https://ai6638.com/after-sales</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
