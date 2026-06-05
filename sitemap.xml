@@ -308,4 +308,44 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- ChatGPT Plus 充值失败专项排查页 -->
+  <url>
+    <loc>https://ai6638.com/chatgpt-plus-recharge-failed</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Claude Pro 国内开通注意事项页 -->
+  <url>
+    <loc>https://ai6638.com/claude-pro-cn-notes</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gemini Advanced 适合人群页 -->
+  <url>
+    <loc>https://ai6638.com/gemini-advanced-users</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Grok / SuperGrok 选择页 -->
+  <url>
+    <loc>https://ai6638.com/grok-supergrok-choose</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ChatGPT Pro 和 Plus 区别页 -->
+  <url>
+    <loc>https://ai6638.com/chatgpt-pro-vs-plus</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
