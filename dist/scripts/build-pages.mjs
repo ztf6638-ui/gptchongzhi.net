@@ -14,7 +14,8 @@ const files = [
   "apple-touch-icon.png",
   "web-app-manifest-192x192.png",
   "web-app-manifest-512x512.png",
-  "google0f47ddb4e138ff96.html"
+  "google0f47ddb4e138ff96.html",
+  "59bbc7ad7158a49c8847cee661715aa9.txt"
 ];
 
 const dirs = ["images", "index_files", "scripts", "styles"];
