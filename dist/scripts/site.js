@@ -110,6 +110,9 @@ function injectNavEnhancerStyles() {
     .nav-ai-icon--claude { color: #e7774f; }
     .nav-ai-icon--grok { color: currentColor; }
     .nav-ai-icon--gemini { color: #4f8df6; }
+    .nav-ai-icon--teal { color: #10a37f; }
+    .nav-ai-icon--orange { color: #e7774f; }
+    .nav-ai-icon--blue { color: #4f8df6; }
 
     #smart-nav .max-w-7xl > .flex {
       gap: 16px;
@@ -157,6 +160,46 @@ function injectNavEnhancerStyles() {
       .nav-ai-label {
         gap: 8px;
       }
+    }
+
+    #mobile-menu .mobile-section-title {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+      letter-spacing: 0.16em;
+    }
+
+    #mobile-menu .mobile-ai-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 14px;
+      height: 14px;
+      min-width: 14px;
+    }
+
+    #mobile-menu .mobile-ai-icon svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    #mobile-menu .mobile-entry {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    #mobile-menu .mobile-entry-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      min-width: 18px;
+      color: rgba(255,255,255,0.82);
+      font-size: 0.95rem;
+      line-height: 1;
     }
   `;
 
@@ -234,6 +277,30 @@ function enhanceAiNavigation() {
       enhanceNavTrigger(anchor, item);
     });
   }
+
+  const mobileTitleMap = {
+    "ChatGPT/Codex": { iconMarkup: iconMarkup.openai, colorClass: "nav-ai-icon--teal" },
+    "Gemini": { iconMarkup: iconMarkup.gemini, colorClass: "nav-ai-icon--blue" },
+    "Claude": { iconMarkup: iconMarkup.claude, colorClass: "nav-ai-icon--orange" },
+    "Grok": { iconMarkup: iconMarkup.grok, colorClass: "nav-ai-icon--grok" }
+  };
+
+  document.querySelectorAll("#mobile-menu .mobile-section-title[data-ai-title]").forEach((title) => {
+    if (title.dataset.mobileEnhanced === "1") {
+      return;
+    }
+
+    const config = mobileTitleMap[title.dataset.aiTitle];
+    if (!config) {
+      return;
+    }
+
+    title.dataset.mobileEnhanced = "1";
+    title.innerHTML = `
+      <span class="mobile-ai-icon ${config.colorClass}" aria-hidden="true">${config.iconMarkup}</span>
+      <span>${title.dataset.aiTitle}</span>
+    `;
+  });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
