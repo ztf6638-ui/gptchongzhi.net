@@ -93,9 +93,9 @@ function injectNavEnhancerStyles() {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 18px;
-      height: 18px;
-      min-width: 18px;
+      width: 22px;
+      height: 22px;
+      min-width: 22px;
       line-height: 1;
       transform: translateY(-0.5px);
     }
@@ -174,9 +174,9 @@ function injectNavEnhancerStyles() {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 14px;
-      height: 14px;
-      min-width: 14px;
+      width: 16px;
+      height: 16px;
+      min-width: 16px;
     }
 
     #mobile-menu .mobile-ai-icon svg {
@@ -232,30 +232,41 @@ function enhanceAiNavigation() {
 
   const iconMarkup = {
     openai: `
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M12 3.4a3.6 3.6 0 0 1 3.6 3.6v2.1l1.8-1a3.6 3.6 0 0 1 4.9 1.3 3.6 3.6 0 0 1-1.3 4.9l-1.9 1.1 1.9 1.1a3.6 3.6 0 0 1 1.3 4.9 3.6 3.6 0 0 1-4.9 1.3l-1.8-1V17a3.6 3.6 0 0 1-7.2 0v-2.1l-1.8 1a3.6 3.6 0 0 1-4.9-1.3 3.6 3.6 0 0 1 1.3-4.9l1.9-1.1-1.9-1.1A3.6 3.6 0 0 1 1.7 9.4a3.6 3.6 0 0 1 4.9-1.3l1.8 1V7A3.6 3.6 0 0 1 12 3.4Z"></path>
-        <circle cx="12" cy="12" r="2.35"></circle>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M8.05 4.55a4.15 4.15 0 0 1 6.93-1.85 4.1 4.1 0 0 1 1.2 3.85l1.72 1a4.14 4.14 0 0 1 2.85 7.38 4.1 4.1 0 0 1-3.98.36l-1.72 1a4.15 4.15 0 0 1-6.93 1.85 4.1 4.1 0 0 1-1.2-3.85l-1.72-1a4.14 4.14 0 0 1-2.85-7.38 4.1 4.1 0 0 1 3.98-.36l1.72-1Z"></path>
+        <path d="M8.05 4.55 12 6.83l4.18-.28"></path>
+        <path d="M16.18 6.55 15.92 11l2.58 3.52"></path>
+        <path d="M18.5 14.52 14.55 16.8l-1.82 3.8"></path>
+        <path d="M12.73 20.6 8.78 18.32 4.6 18.6"></path>
+        <path d="M4.6 18.6 4.86 14.15 2.28 10.63"></path>
+        <path d="M2.28 10.63 6.23 8.35 8.05 4.55"></path>
+        <path d="M6.23 8.35 9.99 10.52l.02 4.32 3.78 2.18"></path>
+        <path d="M17.9 11.01 14.14 8.83 10.39 11l-3.77-2.18"></path>
+        <path d="M8.78 18.32 8.76 14l3.74-2.16-.01-4.34"></path>
       </svg>
     `,
     claude: `
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M12 3v18"></path>
-        <path d="M5.7 5.7 18.3 18.3"></path>
-        <path d="M3 12h18"></path>
-        <path d="M5.7 18.3 18.3 5.7"></path>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.85" stroke-linecap="round" aria-hidden="true">
+        <path d="M12 2.8v18.4"></path>
+        <path d="M8.85 3.58 15.15 20.42"></path>
+        <path d="M6.05 5.18 17.95 18.82"></path>
+        <path d="M4.12 7.72 19.88 16.28"></path>
+        <path d="M3.2 10.75h17.6"></path>
+        <path d="M3.58 14.05 20.42 9.95"></path>
+        <path d="M5.18 17.05 18.82 6.95"></path>
+        <path d="M7.72 19.08 16.28 4.92"></path>
       </svg>
     `,
     grok: `
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.95" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M7.2 4.5h9.6"></path>
-        <path d="M8.5 19.5h7"></path>
-        <path d="M16.8 4.5 7.2 19.5"></path>
-        <path d="M7.2 4.5c5 0 8 2.9 8 7.1 0 4.5-2.8 7.9-6.7 7.9"></path>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M17.55 5.2 6.45 18.8"></path>
+        <path d="M18.4 8.15a7.15 7.15 0 1 1-4.55-3.58"></path>
+        <path d="M5.6 15.85a7.15 7.15 0 0 1 12.8-7.7"></path>
       </svg>
     `,
     gemini: `
       <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-        <path d="M12 2.5c1.4 4.2 4.8 7.9 9.5 9.5-4.7 1.6-8.1 5.3-9.5 9.5-1.4-4.2-4.8-7.9-9.5-9.5 4.7-1.6 8.1-5.3 9.5-9.5Z"></path>
+        <path d="M12 1.9c1.23 5.02 5.08 8.87 10.1 10.1-5.02 1.23-8.87 5.08-10.1 10.1C10.77 17.08 6.92 13.23 1.9 12 6.92 10.77 10.77 6.92 12 1.9Z"></path>
       </svg>
     `
   };
