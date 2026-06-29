@@ -43,6 +43,34 @@ function showToast(message) {
   }, 1800);
 }
 
+function installDropdownAutoClose() {
+  const isFinePointer = () => window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+
+  document.querySelectorAll(".tutorial-menu, .tutorial-dropdown").forEach((menu) => {
+    if (menu.dataset.dropdownAutoClose === "1") {
+      return;
+    }
+
+    menu.dataset.dropdownAutoClose = "1";
+    menu.addEventListener("pointerleave", () => {
+      if (!isFinePointer()) {
+        return;
+      }
+
+      window.setTimeout(() => {
+        if (menu.matches(":hover")) {
+          return;
+        }
+
+        const activeElement = document.activeElement;
+        if (activeElement && menu.contains(activeElement)) {
+          activeElement.blur();
+        }
+      }, 40);
+    });
+  });
+}
+
 function injectNavEnhancerStyles() {
   if (document.getElementById("nav-ai-enhancer-styles")) {
     return;
@@ -315,4 +343,5 @@ function enhanceAiNavigation() {
 
 document.addEventListener("DOMContentLoaded", () => {
   enhanceAiNavigation();
+  installDropdownAutoClose();
 });
