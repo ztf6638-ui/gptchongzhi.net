@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "gptchongzhinet1",
+  "name": "page",
   "compatibility_date": "2026-06-02",
   "assets": {
     "directory": "./dist"
